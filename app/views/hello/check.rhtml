@@ -1,0 +1,13 @@
+<% if @results.nil? %>
+<form method="post">
+<label>Enter your phone number or email address:</label>
+<input type="text" name="phone_or_email"/>
+<input type="submit" name="submit" value="Lookup"/>
+</form>
+<% else %>
+  <ul id="address_results">
+    <% @results.each do |sr| %>
+      <li>  <%= link_to sr.created_at.strftime("%b %d - %I:%M %p"),:action=>:service_request,:id=>sr.id %></li>
+    <% end %>
+  </ul>
+<% end %>

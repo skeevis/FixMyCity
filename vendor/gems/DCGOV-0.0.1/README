@@ -1,0 +1,29 @@
+= DC Government GeoCoder and 311 API
+
+... a ruby gem for the not-yet-complete API published by the DC OCTO
+
+== Install
+
+sudo gem install dcgov
+
+== Example
+
+Here's a quick example of how you could use it.
+
+    require 'rubygems'
+    require 'dcgov'
+    results = DCGOV::GeoCoder.get({:address=>"441 4th str, nw"})
+    print results.inspect
+
+== Usage
+
+Honestly, I haven't had a chance yet. But I will say this. If you go into the spec directory you'll find tests for the geocoder and open_311 APIs.
+The rspec tests
+
+If you feel like helping out, expand this readme for me :-)
+
+Zvi Band, 2009
+zvi@skeevisarts.com
+http://skeevisarts.com
+
+@skeevis on the twitter.

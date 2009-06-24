@@ -1,0 +1,38 @@
+<% if flash['message'] %>
+  <script>
+    new LightAlert("<%= flash['message'] %>");
+  </script>
+<% end %>
+<table>
+  <tr>
+    <td>Submitted On</td>
+    <td><%= @req.created_at.to_s %></td>
+  </tr>
+  <tr>
+    <td>Service Code</td>
+    <td><%= @req.service_code %></td>
+  </tr>
+  <tr>
+    <td>Your Comments</td>
+    <td><%= @req.description %></td>
+  </tr>
+
+  <% unless @req.service_id.nil? %>
+    <tr>
+      <td>Service ID</td>
+      <td><%= @req.service_id %></td>
+    </tr>
+  <% end %>
+  <% unless @req.status.nil? %>
+    <tr>
+      <td>Status</td>
+      <td><%= @req.status %></td>
+    </tr>
+  <% end %>
+    <tr>
+      <td></td>
+      <td><%= link_to "Disable Notifications", {:action=>:shush,:id=>@req.id}, :confirm=>'Are you sure?' %></td>
+    </tr>
+
+  
+</table>

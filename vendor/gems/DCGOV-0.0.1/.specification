@@ -1,0 +1,78 @@
+--- !ruby/object:Gem::Specification 
+name: DCGOV
+version: !ruby/object:Gem::Version 
+  version: 0.0.1
+platform: ruby
+authors: 
+- Zvi Band
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-06-06 00:00:00 -04:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: json
+  type: :runtime
+  version_requirement: 
+  version_requirements: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        version: "0"
+    version: 
+description: A basic interface to the citywide API published by the District of Columbia
+email: zvi@skeevisarts.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README
+- LICENSE
+files: 
+- LICENSE
+- README
+- Rakefile
+- lib/dcgov
+- lib/dcgov/address.rb
+- lib/dcgov/easy_class_maker.rb
+- lib/dcgov/geocoder.rb
+- lib/dcgov/open311.rb
+- lib/dcgov/service_request.rb
+- lib/dcgov/service_request_field.rb
+- lib/dcgov/service_type.rb
+- lib/dcgov/util.rb
+- lib/dcgov.rb
+- spec/geocoder_spec.rb
+- spec/open_311_spec.rb
+- spec/spec_helper.rb
+has_rdoc: true
+homepage: http://skeevisarts.com
+post_install_message: 
+rdoc_options: []
+
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+requirements: []
+
+rubyforge_project: 
+rubygems_version: 1.3.1
+signing_key: 
+specification_version: 2
+summary: A basic interface to the citywide API published by the District of Columbia
+test_files: []
+
