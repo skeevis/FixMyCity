@@ -22000,3 +22000,19 @@ Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-24 16:
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
 Completed in 130ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=11]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-24 16:19:22) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 16:19:24) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 23ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
