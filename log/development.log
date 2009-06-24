@@ -20838,3 +20838,1165 @@ Processing HelloController#index (for 127.0.0.1 at 2009-06-21 22:24:32) [GET]
 Rendering template within layouts/default
 Rendering hello/index
 Completed in 110ms (View: 99, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-24 12:58:33) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 22ms (View: 14, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:05:00) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:08:30) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:15:31) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:31:07) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 23ms (View: 13, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:31:45) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:38:37) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:41:33) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:42:03) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:42:43) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:43:59) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:50:03) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 22ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:52:22) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 75ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:52:34) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:55:44) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:56:36) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 22ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:57:41) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:58:52) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 13:59:45) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:02:44) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:03:18) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:04:08) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:05:14) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:06:13) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:06:24) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:07:04) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:09:02) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:10:10) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:11:45) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:21:03) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 14:21:28) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:21:38) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 7384ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:22:29) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 4073ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:23:37) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 5106ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:23:51) [GET]
+  Parameters: {"lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.collect):
+    /app/controllers/remote_controller.rb:38:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (53.3ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (12.8ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:24:06) [GET]
+  Parameters: {"lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.collect):
+    /app/controllers/remote_controller.rb:38:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (61.9ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.2ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:24:59) [GET]
+  Parameters: {"lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.collect):
+    /app/controllers/remote_controller.rb:38:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (131.4ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.2ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:25:21) [GET]
+  Parameters: {"lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.collect):
+    /app/controllers/remote_controller.rb:38:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (54.0ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.1ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:26:05) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 4974ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:28:43) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 3510ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:31:53) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+NameError (uninitialized constant RemoteController::DCGov):
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:102:in `const_missing'
+    /app/controllers/remote_controller.rb:39:in `_lookup_point'
+    /app/controllers/remote_controller.rb:38:in `collect'
+    /app/controllers/remote_controller.rb:38:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (56.3ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.1ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:32:14) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 16004ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:33:18) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 16943ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:34:39) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[#<DCGOV::Address:0x23f0834 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="218663", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x23f0424 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225953", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x23efc90 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="234889", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x23ef4fc @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225951", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x23eee1c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="279218", @vote_prcnct=nil, @xoord=nil, @status=nil>]
+individual: #<DCGOV::Address:0x23e9c3c>
+individual: #<DCGOV::Address:0x23e6528>
+individual: #<DCGOV::Address:0x23e3fa8>
+individual: #<DCGOV::Address:0x23df7f0>
+individual: #<DCGOV::Address:0x23dce74>
+Completed in 16301ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:35:44) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[#<DCGOV::Address:0x2367c3c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="218663", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x236755c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225953", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x236705c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="234889", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x2366e2c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225951", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x2366a30 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="279218", @vote_prcnct=nil, @xoord=nil, @status=nil>]
+individual: #<DCGOV::Address:0x235c7b0>
+individual: #<DCGOV::Address:0x235a438>
+individual: #<DCGOV::Address:0x2357c9c>
+individual: #<DCGOV::Address:0x23558e8>
+individual: #<DCGOV::Address:0x2353534>
+Completed in 16476ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:55:34) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[#<DCGOV::Address:0x22ee2ec @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="218663", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x22ee0bc @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225953", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x22ede8c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="234889", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x22edc5c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225951", @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x22eda2c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="279218", @vote_prcnct=nil, @xoord=nil, @status=nil>]
+individual: #<DCGOV::Address:0x22eabc4 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="218663", @vote_prcnct=nil, @xoord=nil, @status=nil>
+individual: #<DCGOV::Address:0x22e8234 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225953", @vote_prcnct=nil, @xoord=nil, @status=nil>
+individual: #<DCGOV::Address:0x22e5048 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="234889", @vote_prcnct=nil, @xoord=nil, @status=nil>
+individual: #<DCGOV::Address:0x22e0bb0 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225951", @vote_prcnct=nil, @xoord=nil, @status=nil>
+individual: #<DCGOV::Address:0x22de61c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="279218", @vote_prcnct=nil, @xoord=nil, @status=nil>
+Completed in 16478ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:58:22) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[]
+Completed in 3434ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 14:58:30) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[]
+Completed in 2678ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:06:55) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[]
+Completed in 3492ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:07:05) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[]
+Completed in 2503ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:10:05) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[#<DCGOV::Address:0x20a0968 @clust=nil, @stname="MASSACHUSETTS", @latitude="38.91156715", @anc="ANC 2D", @census_tract="41", @city="WASHINGTON", @nbhd=nil, @addrnum="2230", @zipcode="20008", @ssl="2511    0005", @roc="-", @quadrant="NW", @distance="8.91", @ward="Ward 2", @state="DC", @fulladdress="2230 MASSACHUSETTS AVENUE NW", @smd="SMD02 2D02", @ycoord="138190.5", @poldist="Police District - Second District", @street_type="AVENUE", @longitude="-77.05001615", @psa="Police Service Area 208", @aid="218663", @vote_prcnct="Precinct 14", @xoord=nil, @status="ACTIVE">, #<DCGOV::Address:0x20a0724 @clust=nil, @stname="Q", @latitude="38.91093714", @anc="ANC 2D", @census_tract="41", @city="WASHINGTON", @nbhd=nil, @addrnum="2230", @zipcode="20008", @ssl="2510    0036", @roc="-", @quadrant="NW", @distance="67.03", @ward="Ward 2", @state="DC", @fulladdress="2230 Q STREET NW", @smd="SMD02 2D02", @ycoord="138120.56", @poldist="Police District - Second District", @street_type="STREET", @longitude="-77.04992404", @psa="Police Service Area 208", @aid="225953", @vote_prcnct="Precinct 14", @xoord=nil, @status="ACTIVE">, #<DCGOV::Address:0x20a0288 @clust=nil, @stname="MASSACHUSETTS", @latitude="38.91201634", @anc="ANC 2D", @census_tract="41", @city="WASHINGTON", @nbhd=nil, @addrnum="2207", @zipcode="20008", @ssl="2512    0004", @roc="-", @quadrant="NW", @distance="76.59", @ward="Ward 2", @state="DC", @fulladdress="2207 MASSACHUSETTS AVENUE NW", @smd="SMD02 2D02", @ycoord="138240.33000000002", @poldist="Police District - Second District", @street_type="AVENUE", @longitude="-77.04927888", @psa="Police Service Area 208", @aid="234889", @vote_prcnct="Precinct 13", @xoord=nil, @status="ACTIVE">, #<DCGOV::Address:0x209f1e4 @clust=nil, @stname="Q", @latitude="38.91086417", @anc="ANC 2D", @census_tract="41", @city="WASHINGTON", @nbhd=nil, @addrnum="2222", @zipcode="20008", @ssl="2510    0038", @roc="-", @quadrant="NW", @distance="76.88", @ward="Ward 2", @state="DC", @fulladdress="2222 Q STREET NW", @smd="SMD02 2D02", @ycoord="138112.45", @poldist="Police District - Second District", @street_type="STREET", @longitude="-77.04973121", @psa="Police Service Area 208", @aid="225951", @vote_prcnct="Precinct 14", @xoord=nil, @status="ACTIVE">, #<DCGOV::Address:0x209efa0 @clust=nil, @stname="22ND", @latitude="38.91075715", @anc="ANC 2D", @census_tract="41", @city="WASHINGTON", @nbhd=nil, @addrnum="1520", @zipcode="20037", @ssl="2510    0813", @roc="-", @quadrant="NW", @distance="93.51", @ward="Ward 2", @state="DC", @fulladdress="1520 22ND STREET NW", @smd="SMD02 2D02", @ycoord="138100.56", @poldist="Police District - Second District", @street_type="STREET", @longitude="-77.04952429", @psa="Police Service Area 208", @aid="279218", @vote_prcnct="Precinct 14", @xoord=nil, @status="ACTIVE">]
+individual: #<DCGOV::Address:0x20964f4 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="218663", @vote_prcnct=nil, @xoord=nil, @status=nil>
+individual: #<DCGOV::Address:0x2091db4 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225953", @vote_prcnct=nil, @xoord=nil, @status=nil>
+individual: #<DCGOV::Address:0x208f2f8 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="234889", @vote_prcnct=nil, @xoord=nil, @status=nil>
+individual: #<DCGOV::Address:0x208ca1c @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="225951", @vote_prcnct=nil, @xoord=nil, @status=nil>
+individual: #<DCGOV::Address:0x20872ec @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid="279218", @vote_prcnct=nil, @xoord=nil, @status=nil>
+Completed in 16936ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:11:46) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[#<DCGOV::Address:0x20a0b20 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid=nil, @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x20a0904 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid=nil, @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x20a06e8 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid=nil, @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x20a04cc @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid=nil, @vote_prcnct=nil, @xoord=nil, @status=nil>, #<DCGOV::Address:0x20a02b0 @clust=nil, @stname=nil, @latitude=nil, @anc=nil, @census_tract=nil, @city=nil, @nbhd=nil, @addrnum=nil, @zipcode=nil, @ssl=nil, @roc=nil, @quadrant=nil, @distance=nil, @ward=nil, @state=nil, @fulladdress=nil, @smd=nil, @ycoord=nil, @poldist=nil, @street_type=nil, @longitude=nil, @psa=nil, @aid=nil, @vote_prcnct=nil, @xoord=nil, @status=nil>]
+individual: nil
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.fulladdress):
+    /app/controllers/remote_controller.rb:44:in `_lookup_point'
+    /app/controllers/remote_controller.rb:41:in `collect'
+    /app/controllers/remote_controller.rb:41:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (60.8ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.3ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:12:41) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"218663"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2230"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395662.11"}, {"ycoord"=>"138190.5"}, {"ssl"=>"2511    0005"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91156715"}, {"longitude"=>"-77.05001615"}, {"distance"=>"8.91"}]}, {"address"=>[{"aid"=>"225953"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 Q STREET NW"}, {"addrnum"=>"2230"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395670.06"}, {"ycoord"=>"138120.56"}, {"ssl"=>"2510    0036"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91093714"}, {"longitude"=>"-77.04992404"}, {"distance"=>"67.03"}]}, {"address"=>[{"aid"=>"234889"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2207 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2207"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395726.08"}, {"ycoord"=>"138240.33000000002"}, {"ssl"=>"2512    0004"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91201634"}, {"longitude"=>"-77.04927888"}, {"distance"=>"76.59"}]}, {"address"=>[{"aid"=>"225951"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2222 Q STREET NW"}, {"addrnum"=>"2222"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395686.78"}, {"ycoord"=>"138112.45"}, {"ssl"=>"2510    0038"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91086417"}, {"longitude"=>"-77.04973121"}, {"distance"=>"76.88"}]}, {"address"=>[{"aid"=>"279218"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1520 22ND STREET NW"}, {"addrnum"=>"1520"}, {"stname"=>"22ND"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395704.72000000003"}, {"ycoord"=>"138100.56"}, {"ssl"=>"2510    0813"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20037"}, {"latitude"=>"38.91075715"}, {"longitude"=>"-77.04952429"}, {"distance"=>"93.51"}]}]
+
+
+NoMethodError (undefined method `aid' for #<Hash:0x20a55f8>):
+    /app/controllers/remote_controller.rb:42:in `_lookup_point'
+    /app/controllers/remote_controller.rb:41:in `collect'
+    /app/controllers/remote_controller.rb:41:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (55.1ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.3ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:14:50) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"218663"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2230"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395662.11"}, {"ycoord"=>"138190.5"}, {"ssl"=>"2511    0005"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91156715"}, {"longitude"=>"-77.05001615"}, {"distance"=>"8.91"}]}, {"address"=>[{"aid"=>"225953"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 Q STREET NW"}, {"addrnum"=>"2230"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395670.06"}, {"ycoord"=>"138120.56"}, {"ssl"=>"2510    0036"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91093714"}, {"longitude"=>"-77.04992404"}, {"distance"=>"67.03"}]}, {"address"=>[{"aid"=>"234889"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2207 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2207"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395726.08"}, {"ycoord"=>"138240.33000000002"}, {"ssl"=>"2512    0004"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91201634"}, {"longitude"=>"-77.04927888"}, {"distance"=>"76.59"}]}, {"address"=>[{"aid"=>"225951"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2222 Q STREET NW"}, {"addrnum"=>"2222"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395686.78"}, {"ycoord"=>"138112.45"}, {"ssl"=>"2510    0038"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91086417"}, {"longitude"=>"-77.04973121"}, {"distance"=>"76.88"}]}, {"address"=>[{"aid"=>"279218"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1520 22ND STREET NW"}, {"addrnum"=>"1520"}, {"stname"=>"22ND"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395704.72000000003"}, {"ycoord"=>"138100.56"}, {"ssl"=>"2510    0813"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20037"}, {"latitude"=>"38.91075715"}, {"longitude"=>"-77.04952429"}, {"distance"=>"93.51"}]}]
+
+
+TypeError (can't convert Array into Hash):
+    /vendor/gems/DCGOV-0.0.1/lib/dcgov/util.rb:38:in `merge!'
+    /vendor/gems/DCGOV-0.0.1/lib/dcgov/util.rb:38:in `fix_hash'
+    /vendor/gems/DCGOV-0.0.1/lib/dcgov/util.rb:37:in `each'
+    /vendor/gems/DCGOV-0.0.1/lib/dcgov/util.rb:37:in `fix_hash'
+    /app/controllers/remote_controller.rb:42:in `_lookup_point'
+    /app/controllers/remote_controller.rb:41:in `collect'
+    /app/controllers/remote_controller.rb:41:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (66.5ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.4ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:15:22) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"218663"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2230"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395662.11"}, {"ycoord"=>"138190.5"}, {"ssl"=>"2511    0005"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91156715"}, {"longitude"=>"-77.05001615"}, {"distance"=>"8.91"}]}, {"address"=>[{"aid"=>"225953"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 Q STREET NW"}, {"addrnum"=>"2230"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395670.06"}, {"ycoord"=>"138120.56"}, {"ssl"=>"2510    0036"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91093714"}, {"longitude"=>"-77.04992404"}, {"distance"=>"67.03"}]}, {"address"=>[{"aid"=>"234889"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2207 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2207"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395726.08"}, {"ycoord"=>"138240.33000000002"}, {"ssl"=>"2512    0004"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91201634"}, {"longitude"=>"-77.04927888"}, {"distance"=>"76.59"}]}, {"address"=>[{"aid"=>"225951"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2222 Q STREET NW"}, {"addrnum"=>"2222"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395686.78"}, {"ycoord"=>"138112.45"}, {"ssl"=>"2510    0038"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91086417"}, {"longitude"=>"-77.04973121"}, {"distance"=>"76.88"}]}, {"address"=>[{"aid"=>"279218"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1520 22ND STREET NW"}, {"addrnum"=>"1520"}, {"stname"=>"22ND"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395704.72000000003"}, {"ycoord"=>"138100.56"}, {"ssl"=>"2510    0813"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20037"}, {"latitude"=>"38.91075715"}, {"longitude"=>"-77.04952429"}, {"distance"=>"93.51"}]}]
+IND: ancANC 2DcityWASHINGTONlatitude38.91156715vote_prcnctPrecinct 14ssl2511    0005addrnum2230zipcode20008census_tract41street_typeAVENUEstnameMASSACHUSETTSfulladdress2230 MASSACHUSETTS AVENUE NWroc-clusterCluster 6ycoord138190.5aid218663xcoord395662.11longitude-77.05001615psaPolice Service Area 208quadrantNWnbhd_action statusACTIVEdistance8.91smdSMD02 2D02poldistPolice District - Second DistrictwardWard 2stateDC
+IND: ancANC 2DcityWASHINGTONlatitude38.91093714vote_prcnctPrecinct 14ssl2510    0036addrnum2230zipcode20008census_tract41street_typeSTREETstnameQfulladdress2230 Q STREET NWroc-clusterCluster 6ycoord138120.56aid225953xcoord395670.06longitude-77.04992404psaPolice Service Area 208quadrantNWnbhd_action statusACTIVEdistance67.03smdSMD02 2D02poldistPolice District - Second DistrictwardWard 2stateDC
+IND: ancANC 2DcityWASHINGTONlatitude38.91201634vote_prcnctPrecinct 13ssl2512    0004addrnum2207zipcode20008census_tract41street_typeAVENUEstnameMASSACHUSETTSfulladdress2207 MASSACHUSETTS AVENUE NWroc-clusterCluster 1ycoord138240.33000000002aid234889xcoord395726.08longitude-77.04927888psaPolice Service Area 208quadrantNWnbhd_action statusACTIVEdistance76.59smdSMD02 2D02poldistPolice District - Second DistrictwardWard 2stateDC
+IND: ancANC 2DcityWASHINGTONlatitude38.91086417vote_prcnctPrecinct 14ssl2510    0038addrnum2222zipcode20008census_tract41street_typeSTREETstnameQfulladdress2222 Q STREET NWroc-clusterCluster 6ycoord138112.45aid225951xcoord395686.78longitude-77.04973121psaPolice Service Area 208quadrantNWnbhd_action statusACTIVEdistance76.88smdSMD02 2D02poldistPolice District - Second DistrictwardWard 2stateDC
+IND: ancANC 2DcityWASHINGTONlatitude38.91075715vote_prcnctPrecinct 14ssl2510    0813addrnum1520zipcode20037census_tract41street_typeSTREETstname22NDfulladdress1520 22ND STREET NWroc-clusterCluster 6ycoord138100.56aid279218xcoord395704.72000000003longitude-77.04952429psaPolice Service Area 208quadrantNWnbhd_action statusACTIVEdistance93.51smdSMD02 2D02poldistPolice District - Second DistrictwardWard 2stateDC
+Completed in 4332ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:18:25) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"218663"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2230"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395662.11"}, {"ycoord"=>"138190.5"}, {"ssl"=>"2511    0005"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91156715"}, {"longitude"=>"-77.05001615"}, {"distance"=>"8.91"}]}, {"address"=>[{"aid"=>"225953"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 Q STREET NW"}, {"addrnum"=>"2230"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395670.06"}, {"ycoord"=>"138120.56"}, {"ssl"=>"2510    0036"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91093714"}, {"longitude"=>"-77.04992404"}, {"distance"=>"67.03"}]}, {"address"=>[{"aid"=>"234889"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2207 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2207"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395726.08"}, {"ycoord"=>"138240.33000000002"}, {"ssl"=>"2512    0004"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91201634"}, {"longitude"=>"-77.04927888"}, {"distance"=>"76.59"}]}, {"address"=>[{"aid"=>"225951"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2222 Q STREET NW"}, {"addrnum"=>"2222"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395686.78"}, {"ycoord"=>"138112.45"}, {"ssl"=>"2510    0038"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91086417"}, {"longitude"=>"-77.04973121"}, {"distance"=>"76.88"}]}, {"address"=>[{"aid"=>"279218"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1520 22ND STREET NW"}, {"addrnum"=>"1520"}, {"stname"=>"22ND"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395704.72000000003"}, {"ycoord"=>"138100.56"}, {"ssl"=>"2510    0813"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20037"}, {"latitude"=>"38.91075715"}, {"longitude"=>"-77.04952429"}, {"distance"=>"93.51"}]}]
+
+
+NoMethodError (undefined method `ind_address' for #<RemoteController:0x246a364>):
+    /app/controllers/remote_controller.rb:43:in `_lookup_point'
+    /app/controllers/remote_controller.rb:41:in `collect'
+    /app/controllers/remote_controller.rb:41:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (56.7ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.1ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:18:44) [GET]
+  Parameters: {"lon"=>"-77.049919", "lat"=>"38.911541"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"218663"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2230"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395662.11"}, {"ycoord"=>"138190.5"}, {"ssl"=>"2511    0005"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91156715"}, {"longitude"=>"-77.05001615"}, {"distance"=>"8.91"}]}, {"address"=>[{"aid"=>"225953"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2230 Q STREET NW"}, {"addrnum"=>"2230"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395670.06"}, {"ycoord"=>"138120.56"}, {"ssl"=>"2510    0036"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91093714"}, {"longitude"=>"-77.04992404"}, {"distance"=>"67.03"}]}, {"address"=>[{"aid"=>"234889"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2207 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2207"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395726.08"}, {"ycoord"=>"138240.33000000002"}, {"ssl"=>"2512    0004"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91201634"}, {"longitude"=>"-77.04927888"}, {"distance"=>"76.59"}]}, {"address"=>[{"aid"=>"225951"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2222 Q STREET NW"}, {"addrnum"=>"2222"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395686.78"}, {"ycoord"=>"138112.45"}, {"ssl"=>"2510    0038"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91086417"}, {"longitude"=>"-77.04973121"}, {"distance"=>"76.88"}]}, {"address"=>[{"aid"=>"279218"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1520 22ND STREET NW"}, {"addrnum"=>"1520"}, {"stname"=>"22ND"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395704.72000000003"}, {"ycoord"=>"138100.56"}, {"ssl"=>"2510    0813"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20037"}, {"latitude"=>"38.91075715"}, {"longitude"=>"-77.04952429"}, {"distance"=>"93.51"}]}]
+Completed in 4252ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911541&lon=-77.049919]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 15:24:16) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 15:24:28) [GET]
+  Parameters: {"lon"=>"-77.043157", "lat"=>"38.910118"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"243107"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1507 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1507"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396207.42"}, {"ycoord"=>"138089.05"}, {"ssl"=>"0112    0008"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91065577"}, {"longitude"=>"-77.04372813"}, {"distance"=>"77.57"}]}, {"address"=>[{"aid"=>"303435"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1510 19TH STREET NW"}, {"addrnum"=>"1510"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396213.86"}, {"ycoord"=>"138100.63"}, {"ssl"=>"0112    0011"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91076012"}, {"longitude"=>"-77.04365394"}, {"distance"=>"83.30"}]}, {"address"=>[{"aid"=>"218308"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1509 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1509"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396205.45"}, {"ycoord"=>"138095.99"}, {"ssl"=>"0112    0012"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91071828"}, {"longitude"=>"-77.04375088"}, {"distance"=>"84.22"}]}, {"address"=>[{"aid"=>"218310"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1511 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1511"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396203.16000000003"}, {"ycoord"=>"138100.59"}, {"ssl"=>"0112    0011"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91075971"}, {"longitude"=>"-77.04377731"}, {"distance"=>"89.27"}]}, {"address"=>[{"aid"=>"300942"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1913 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"1913"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396159.31"}, {"ycoord"=>"138040.3"}, {"ssl"=>"0113    0060"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91021641"}, {"longitude"=>"-77.04428256"}, {"distance"=>"98.23"}]}]
+Completed in 5452ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.910118&lon=-77.043157]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-24 15:24:50) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 180ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-24 15:24:53) [GET]
+  Parameters: {"service_code"=>"S0081"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 125ms (View: 1, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=S0081]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 15:24:56) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 16:05:01) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 16:07:58) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 16:08:17) [GET]
+  Parameters: {"lon"=>"-77.054376", "lat"=>"38.913233"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[]
+Completed in 4991ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.913233&lon=-77.054376]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-24 16:08:34) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 21ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-24 16:08:47) [GET]
+  Parameters: {"lon"=>"-77.043682", "lat"=>"38.912422"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"241258"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1637 19TH STREET NW"}, {"addrnum"=>"1637"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396256.26"}, {"ycoord"=>"138266.7"}, {"ssl"=>"0134    0828"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91225631"}, {"longitude"=>"-77.04316597"}, {"distance"=>"48.39"}]}, {"address"=>[{"aid"=>"241248"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1826 R STREET NW"}, {"addrnum"=>"1826"}, {"stname"=>"R"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396287.06"}, {"ycoord"=>"138283.51"}, {"ssl"=>"0134    0167"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91240787"}, {"longitude"=>"-77.04281094"}, {"distance"=>"75.56"}]}, {"address"=>[{"aid"=>"241022"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1625 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1625"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396150.39"}, {"ycoord"=>"138234.29"}, {"ssl"=>"0111    0013"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91196390"}, {"longitude"=>"-77.04438649"}, {"distance"=>"79.49"}]}, {"address"=>[{"aid"=>"241212"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1709 19TH STREET NW"}, {"addrnum"=>"1709"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396261.74"}, {"ycoord"=>"138346.74"}, {"ssl"=>"0133    0805"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91297736"}, {"longitude"=>"-77.04310323"}, {"distance"=>"79.50"}]}, {"address"=>[{"aid"=>"241009"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1718 19TH STREET NW"}, {"addrnum"=>"1718"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396206.27"}, {"ycoord"=>"138378.26"}, {"ssl"=>"0110    0045"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B01"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91326107"}, {"longitude"=>"-77.04374298"}, {"distance"=>"93.29"}]}]
+Completed in 5239ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.912422&lon=-77.043682]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-24 16:08:54) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 175ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-24 16:08:58) [GET]
+  Parameters: {"service_code"=>"11"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 130ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=11]

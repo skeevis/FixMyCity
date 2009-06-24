@@ -1,5 +1,5 @@
 class RemoteController < ApplicationController
-# 6916db5b-fb62-4f47-bdce-516152dede6c
+  # 6916db5b-fb62-4f47-bdce-516152dede6c
   def _get_service_types
     logger.debug("Grabbing Service Types")
     service_types = DCGOV::Open311.get_service_types()
@@ -29,6 +29,22 @@ class RemoteController < ApplicationController
       {"address"=>address.fulladdress,"aid"=>address.aid,"longitude"=>address.longitude,"latitude"=>address.latitude}
     }
     render :json=>address_options_ret.to_json
+  end
+
+  def _lookup_point
+    lat = params["lat"]
+    lon = params["lon"]
+    results = DCGOV::GeoCoder.find_by_lat_lon(lat,lon)
+
+    logger.debug(results.inspect)
+    
+    address_options_ret = results.collect { |address|
+      res = DCGOV::Util::fix_hash(address["address"])
+      ind_address = DCGOV::Address.new_from_hash(res)
+      {"address"=>ind_address.fulladdress,"aid"=>ind_address.aid,"longitude"=>ind_address.longitude,"latitude"=>ind_address.latitude}
+    }
+    render :json=>address_options_ret
+
   end
 
 end

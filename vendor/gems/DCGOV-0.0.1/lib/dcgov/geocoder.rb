@@ -16,10 +16,15 @@ module DCGOV
 
     #do a search via latitude and longitude.
     def self.find_by_lat_lon(lat,lon)
-       begin
-        request_url =  "/geocoding/v1/getFromLatLong.json?lat=#{CGI::escape(lat)}&long=#{CGI::escape(lon)}"
+      begin
+        request_url =  "/geocoding/v1/getFromLatLong.json?lat=#{lat}&long=#{lon}"
         result_json = DCGOV::Util.pull_from_json(request_url)
-        return result_json["addresses"].collect { |address| DCGOV::Address.new_from_hash(address["address"][0])  }
+        return result_json["addresses"].collect { |address|
+          #DCGOV::Address.new_from_hash(address["address"][0])
+          #address = DCGOV::Util::fix_hash(address["address"])
+          #DCGOV::Address.new_from_hash(address)
+          address
+        }
       rescue
         #crap, something went wrong
         return nil
@@ -29,13 +34,13 @@ module DCGOV
 
     #find via a normal street address... "1600 pennsylvania"
     def self.find_by_address(address)
-        request_url =  "/geocoding/v1/search.json?address=#{CGI::escape(address)}"
-        result_json = DCGOV::Util.pull_from_json(request_url)
+      request_url =  "/geocoding/v1/search.json?address=#{CGI::escape(address)}"
+      result_json = DCGOV::Util.pull_from_json(request_url)
         
-        return result_json["addresses"].collect { |address|
-          address = DCGOV::Util::fix_hash(address["address"])
-          DCGOV::Address.new_from_hash(address)
-          }
+      return result_json["addresses"].collect { |address|
+        address = DCGOV::Util::fix_hash(address["address"])
+        DCGOV::Address.new_from_hash(address)
+      }
     end
 
     #find by a mar ID
