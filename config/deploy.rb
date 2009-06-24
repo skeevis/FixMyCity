@@ -33,13 +33,15 @@ namespace :deploy do
   desc "Restarting mod_rails with restart.txt and restarting god, workling and fetchmail"
   task :restart, :roles => :app, :except => { :no_release => true } do
     run "touch #{current_path}/tmp/restart.txt"
-    run "cd #{current_path} && mongrel_rails restart"
+        run "cd #{current_path} && mongrel_rails stop"
+    run "cd #{current_path} && mongrel_rails start -p 8000 -e production -P /home/zvi/rails/fixmycitydc/current/log/mongrel.pid -d"
   end
 
   [:start].each do |t|
     desc "#{t} task is a no-op with mod_rails"
     task t, :roles => :app do
-          run "cd #{current_path} && mongrel_rails restart"
+        run "cd #{current_path} && mongrel_rails stop"
+    run "cd #{current_path} && mongrel_rails start -p 8000 -e production -P /home/zvi/rails/fixmycitydc/current/log/mongrel.pid -d"
 
 #      run "cd #{release_path} && rake asset:packager:build_all"
  #     run "god && god load #{current_path}/config/environments/#{rails_env}.god && god restart workling"
