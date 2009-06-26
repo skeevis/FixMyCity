@@ -6,34 +6,58 @@
     <%= stylesheet_link_tag "all" %>
     <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA32dlZAO8bIPrjvrTu-L4vhQRcWuWrAG8uZOzvgY_E-_7y2TuohRuKRaelpbSYdeQUiHOVSF8i-bhtw" type="text/javascript"></script>
     <script src="/javascripts/lightalert.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://loki.com/plugin/files/loki.js"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+      function lokilate()
+      {
+        var loki = LokiAPI();
+        loki.onSuccess = function(location) {
+          placeLokiPin(location.latitude,location.longitude);
+        }
+        loki.onFailure = function(error) {alert(error)}
+        loki.setKey('fixmycitydc.com');
+        loki.requestLocation(true,loki.NO_STREET_ADDRESS_LOOKUP);
+      }
+    </script>
     <title>FixMyCityDC</title>
   </head>
   <body><div id="page"><div id="header"><a href="/"><h1>FixMyCityDC</h1></a><a href="http://blog.fixmycitydc.com/" class="about" target="_blank">About + Blog</a></div>
-      <div id="wrapper">
-        <%= @content_for_layout %>
-        <div class="clearfix"></div>
-      </div>
-      <div id="footer">
-        <div id="footer-wrapper">
-          <div id="inner">
-            <span class="built_by">Imagined and Hand Built By</span><a href="http://skeevisarts.com" target="_blank" class="skeevisarts">skeevisArts</a>
-            <span class="bar">|</span><span class="designed_by">Designed By</span><a href="#" class="craftymice">Crafty Mice</a>
-          </div>
+      <div id="tablets">
+        <div id="tabletleft">
+
+        </div>
+        <div id="wrapper">
+          <%= @content_for_layout %>
+          <div class="clearfix"></div>
+        </div>
+        <div id="tabletright">
+          <div id="tooltip"></div>
         </div>
       </div>
-      <script>
-        $("#footer").hover(function(){
-          if($("#footer #inner").css("display") != "block")
-          {
-            $("#footer #inner").slideToggle();
-          }
-        }, function(){
-          $("#footer #inner").slideToggle();
-        });
-        //          $("#footer #inner").slideDown();
 
-      </script>
+
     </div>
+    <div id="footer">
+      <div id="footer-wrapper">
+        <div id="inner">
+          <span class="built_by">Imagined and Hand Built By</span><a href="http://skeevisarts.com" target="_blank" class="skeevisarts">skeevisArts</a>
+          <span class="bar">|</span><span class="designed_by">Designed By</span><a href="#" class="craftymice">Crafty Mice</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      $("#footer").hover(function(){
+        if($("#footer #inner").css("display") != "block")
+        {
+          $("#footer #inner").slideToggle();
+        }
+      }, function(){
+        $("#footer #inner").slideToggle();
+      });
+      //          $("#footer #inner").slideDown();
+
+    </script>
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));

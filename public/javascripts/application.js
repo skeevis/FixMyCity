@@ -13,6 +13,7 @@ function getServiceTypes()
             });
             $("<a/>").addClass("next").attr("href","#").click(getServiceFields).html("Next").appendTo("#frame");
         });
+    showToolTip("Please select the issue that you are reporting.");
 }
 
 function getServiceFields()
@@ -24,17 +25,20 @@ function getServiceFields()
         function(data){
             questionTime(data);
         });
+
 }
 
 function questionTime(questions)
 {
     $("<h3 />").html("We've got some questions for you.").appendTo("#frame");
     $("<ul/>").attr("id","questions").appendTo("#frame");
+    var y = 0;
     $.each(questions,function(i,item){
         switch(item.field_type)
         {
             case "TextBox":
                 $("<li/>").html("<label>"+item.field_label+"</label>"+"<input type=\"text\" id=\""+item.field_name+"\" name=\""+item.field_name+"\" />"+"<a href=\"#\" class=\"button next\">next</a>").appendTo("#questions");
+                y++;
                 break;
             case "DropDown":
                 $("<li/>").html("<label>"+item.field_label+"</label>"+"<select id=\""+item.field_name+"\" name=\""+item.field_name+"\" />"+"<a href=\"#\" class=\"button next\">next</a>").appendTo("#questions");
@@ -43,6 +47,7 @@ function questionTime(questions)
                 $.each(options,function(i,vl){
                     $("<option />").attr("value",vl).html(vl).appendTo("#"+item.field_name);
                 });
+                y++;
                 break;
             case "SelectList":
                 $("<li/>").html("<label>"+item.field_label+"</label>"+"<input id=\""+item.field_name+"\" name=\""+item.field_name+"\" />"+"<a href=\"#\" class=\"button next\">next</a>").appendTo("#questions");
@@ -50,27 +55,39 @@ function questionTime(questions)
                 $.each(options,function(i,vl){
                     $("<option />").attr("value",vl).html(vl).appendTo("#"+item.field_name);
                 });
+                y++;
                 break;
             case "PhoneNum":
                 $("<li/>").html("<label>"+item.field_label+"</label>"+"<input type=\"text\" id=\""+item.field_name+"\" name=\""+item.field_name+"\" />"+"<a href=\"#\" class=\"button next\">next</a>").appendTo("#questions");
+                y++;
                 break;
         }
     });
-    $("#questions li:not(:first)").hide();
-    $("#questions li a").click(function(){
-        var id = $(this).siblings("select,input").attr("id");
-        var value = $(this).siblings("select,input").attr("value");
-        addAnswer(id,value);
-    });
-    $("#questions li:not(:last) a").click(function(){
-        $(this).parent().hide().next().show();
-        return false;
-    });
-    $("#questions li:last a").click(function(){
-        $(this).hide();
+
+    if(y==0)
+    {
         launchDescription();
-    });
+    }
+    else
+    {
+        $("#questions li:not(:first)").hide();
+        $("#questions li a").click(function(){
+            var id = $(this).siblings("select,input").attr("id");
+            var value = $(this).siblings("select,input").attr("value");
+            addAnswer(id,value);
+        });
+        $("#questions li:not(:last) a").click(function(){
+            $(this).parent().hide().next().show();
+            return false;
+        });
+        $("#questions li:last a").click(function(){
+            $(this).hide();
+            launchDescription();
+        });
+        showToolTip("We're going to ask you some specific questions related to your issue. Please answer it as best as you can.");
+    }
 }
+
 
 function launchDescription()
 {
@@ -82,6 +99,7 @@ function launchDescription()
         addAnswer("description",$("#description").attr("value"));
         getFollowUpInformation();
     });
+    showToolTip("You can add in any details you feel appropriate which were not in any of the questions.");
 }
 
 var markers = [];
@@ -94,7 +112,7 @@ function launchAddressFinder()
     clearFrame();
     $("<h3 />").html("Where's the problem?").appendTo("#frame");
     //$("<input type=\"text\" id=\"address_box\" name=\"address_box\" />").appendTo("#frame");
-    $('<span id="api-version"></span><form class ="geocode" action="#" onsubmit="geocode(this.haku.value, null); return false">          <input type="text" size="30" id="haku" name="haku" title="Placename or address"/>   <input type="submit" id="hae" value=" >> " title="Set zoom first"/></form><a class="marker" href="javascript:follow(0)"><img src="http://maps.google.com/mapfiles/marker.png" alt="" title="click me" class="pushpin"/></a><div id="map"><noscript>You should turn on JavaScript</noscript></div>').appendTo("#frame");
+    $('<span id="api-version"></span><form class ="geocode" action="#" onsubmit="geocode(this.haku.value, null); return false">          <input type="text" size="30" id="haku" name="haku" title="Placename or address"/>   <input type="submit" id="hae" value="Find" title="Set zoom first"/></form><a class="marker" href="javascript:follow(0)"><img src="http://maps.google.com/mapfiles/marker.png" alt="" title="click me" class="pushpin"/></a><a href="#" class="lokilate" onclick="lokilate();">Locate Me!</a><div id="map"><noscript>You should turn on JavaScript</noscript></div>').appendTo("#frame");
 
     document.getElementById("map").innerHTML = "Map coming...";
     document.getElementById("api-version").innerHTML = "api v=2."+G_API_VERSION;
@@ -116,16 +134,30 @@ function launchAddressFinder()
     map.closeInfoWindow(); //preload iw
     geo = new GClientGeocoder();
 
-/**
- * reverse/forward gecoder
- * sets marker LatLng
- */
+    showToolTip("Please select where the problem is located. You have three ways of choosing the location. You can type in the address and press Go, click on the map marker and then click on an area of the map, or click \"Locate Me\" to have us try and find where you are. In the box that pops up, click the button to select that location.");
 
 
 }
 
 
     
+
+
+function placeLokiPin(lat,lng)
+{
+    marker = createMarker();
+    var responsePoint = new GLatLng(lat, lng);
+    marker.setLatLng(responsePoint);
+    marker.index = markers.length;
+    marker.response= "Your calculated location.";
+    marker.accuracy = "";
+    markers.push(marker);
+    map.setCenter(responsePoint);
+    doInfo(marker);
+
+}
+
+
 
 function geocode(query, pin_,has_line){
     geo.getLocations(query, function(addresses){
@@ -183,6 +215,8 @@ function selectPoint(marker_){
 
     clearFrame();
     GUnload();
+    showToolTip("We're pulling up a list of addresses in the official DC address database. We need this in order to submit the 311 request.");
+
     $("<label>Pick the exact address:</label>").appendTo("#frame");
     $("<ul/>").attr("id","address_results").appendTo("#frame");
     $("<div/>").attr("id","load_indicator").appendTo("#frame");
@@ -190,6 +224,7 @@ function selectPoint(marker_){
     $.getJSON("/remote/_lookup_point?lat="+lat+"&lon="+lng,
         function(data){
             //       alert(data);
+
             listPossibleAddresses(data)
 
         });
@@ -247,51 +282,46 @@ function follow(imageInd){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function listPossibleAddresses(data)
 {
+
     $("#load_indicator").hide();
+    var x =0;
     $.each(data,function(i,item){
         $("#address_results").append("<li id=\""+item.aid+"\">"+item.address+"</li>");
+        x++;
     });
+
+    if(x==0)
+    {
+        $("#address_results").append("<li>Sorry, the DC 311 system doesn't recognize this address.</li>");
+            
+    }
     $("#address_results li").click(function(){
-        //$("<input type=\"hidden\" id=\"aid\" name=\"aid\" value=\""+$(this).attr("id")+"\" />").appendTo("#answers");
         addAnswer("aid",$(this).attr("id"));
         getServiceTypes();
     });
+    showToolTip("Please select an address closest to the issue.");
+
 }
 
 
 function getFollowUpInformation()
 {
     clearFrame();
-    $("#frame").html("<h3>Let's Stay In Touch</h3><label>Enter in your phone number OR your email address below, so we can keep in touch with you. We wont use it for anything else.</label><input id=\"phone_or_email\" name=\"phone_or_email\" type=\"text\"/><a href=\"#\" class=\"button next\" id=\"submit_form\">next</a>");
+    $("#frame").html("<h3>Let's Stay In Touch</h3><label>Enter in your phone number OR your email address below.</label><input id=\"phone_or_email\" name=\"phone_or_email\" type=\"text\"/><a href=\"#\" class=\"button next\" id=\"submit_form\">next</a>");
     $("#submit_form").click(function(){
         addAnswer("phone_or_email",$("#phone_or_email").attr("value"));
         $("#req_form").submit();
     });
+    showToolTip("We're asking for this so we can keep in touch with you. You'll get an automated e-mail or phone call when your request is updated. We wont use it for anything else.");
 }
 
 function clearFrame()
 {
+    $("#tooltip").html("").hide();
     $("#frame").children().remove();
+ 
 }
 
 function addAnswer(answer_name,answer_value)
@@ -304,5 +334,11 @@ function addAnswer(answer_name,answer_value)
     {
         $("<input type=\"hidden\" id=\""+answer_name+"\" name=\"answer["+answer_name+"]\" value=\""+answer_value+"\" />").appendTo("#answers");
     }
+}
+
+
+function showToolTip(msg)
+{
+    $("#tooltip").html(msg).fadeIn();
 }
 

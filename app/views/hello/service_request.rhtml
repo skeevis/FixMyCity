@@ -29,6 +29,22 @@
       <td><%= @req.status %></td>
     </tr>
   <% end %>
+
+  <tr>
+    <td>Share</td>
+    <td><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_favorites"></a>
+<a class="addthis_button_print"></a>
+<span class="addthis_separator">|</span>
+<a href="http://www.addthis.com/bookmark.php?v=250&pub=skeevis" class="addthis_button_expanded">More</a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=skeevis"></script>
+<!-- AddThis Button END -->
+</td>
+  </tr>
     <tr>
       <td></td>
       <td><%= link_to "Disable Notifications", {:action=>:shush,:id=>@req.id}, :confirm=>'Are you sure?' %></td>

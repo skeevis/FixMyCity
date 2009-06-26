@@ -22016,3 +22016,1568 @@ Processing HelloController#new (for 127.0.0.1 at 2009-06-24 16:19:24) [GET]
 Rendering template within layouts/default
 Rendering hello/new
 Completed in 23ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#_stream_refresh (for 127.0.0.1 at 2009-06-26 10:56:09) [POST]
+  Parameters: {"project_id"=>"", "last_mc_loaded"=>"1454", "stream_type"=>"", "show"=>"", "view"=>"expanded", "show_activity"=>"true", "selected_date"=>""}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+ActionController::UnknownAction (No action responded to _stream_refresh. Actions: check, index, new, post, service_request, shush, and update):
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 10:56:13) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 68ms (View: 60, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#check (for 127.0.0.1 at 2009-06-26 10:58:03) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/check
+Completed in 45ms (View: 33, DB: 3) | 200 OK [http://localhost/hello/check]
+
+
+Processing HelloController#check (for 127.0.0.1 at 2009-06-26 10:58:08) [POST]
+  Parameters: {"submit"=>"Lookup", "phone_or_email"=>"3012199183"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mServiceRequest Columns (179.5ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mServiceRequest Load (0.5ms)[0m   [0mSELECT * FROM `service_requests` WHERE (`service_requests`.`phone_number` = '3012199183') [0m
+Rendering template within layouts/default
+Rendering hello/check
+Completed in 425ms (View: 186, DB: 180) | 200 OK [http://localhost/hello/check]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 10:58:12) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mServiceRequest Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mServiceRequest Load (0.3ms)[0m   [0mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 12) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 43ms (View: 22, DB: 2) | 200 OK [http://localhost/hello/service_request/12]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 10:59:19) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mServiceRequest Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mServiceRequest Load (0.3ms)[0m   [0mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 12) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 43ms (View: 21, DB: 2) | 200 OK [http://localhost/hello/service_request/12]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 10:59:42) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mServiceRequest Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mServiceRequest Load (1.2ms)[0m   [0mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 12) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 66ms (View: 31, DB: 3) | 200 OK [http://localhost/hello/service_request/12]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 11:03:20) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mServiceRequest Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mServiceRequest Load (0.3ms)[0m   [0mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 12) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 44ms (View: 20, DB: 2) | 200 OK [http://localhost/hello/service_request/12]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:03:26) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:17:13) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:17:35) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 11:17:38) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 41ms (View: 33, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 11:19:54) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 11:22:39) [GET]
+  Parameters: {"lon"=>"-77.101900", "lat"=>"38.992200"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[]
+Completed in 3358ms (View: 0, DB: 1) | 200 OK [http://localhost/remote/_lookup_point?lat=38.992200&lon=-77.101900]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 11:24:14) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 22ms (View: 13, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 11:24:33) [GET]
+  Parameters: {"lon"=>"-77.101900", "lat"=>"38.992200"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[]
+Completed in 3243ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.992200&lon=-77.101900]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:24:51) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 25ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 11:25:29) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 130ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 11:25:32) [GET]
+  Parameters: {"service_code"=>"S0146"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 95ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=S0146]
+
+
+Processing HelloController#post (for 127.0.0.1 at 2009-06-26 11:25:38) [POST]
+  Parameters: {"answer"=>{"EVIC-HOWMANY"=>"", "aid"=>"", "service_code"=>"S0146", "phone_or_email"=>"3012199183", "description"=>""}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+"ec694c51-8341-44ab-bc73-61d1ed4cd667"
+  [4;36;1mServiceRequest Columns (25.8ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mServiceRequest Create (0.3ms)[0m   [0;1mINSERT INTO `service_requests` (`created_at`, `updated_at`, `token`, `status_updated_at`, `service_id`, `fields`, `aid`, `phone_number`, `service_code`, `description`, `is_silenced`, `status`, `email`) VALUES('2009-06-26 15:25:39', '2009-06-26 15:25:39', 'ec694c51-8341-44ab-bc73-61d1ed4cd667', NULL, NULL, '--- !map:HashWithIndifferentAccess \naid: \"\"\nEVIC-HOWMANY: \"\"\nservice_code: S0146\ndescription: \"\"\nphone_or_email: \"3012199183\"\n', '', '3012199183', 'S0146', '', 0, NULL, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+code: 201
+body: <?xml version="1.0"?>
+<TwilioResponse><Call><Sid>CA5eaa9f4d9dd70a1ce52dc59ece9c268e</Sid><DateCreated>Fri, 26 Jun 2009 08:25:39 -0700</DateCreated><DateUpdated>Fri, 26 Jun 2009 08:25:39 -0700</DateUpdated><CallSegmentSid></CallSegmentSid><AccountSid>AC65c55314d8c8f1f27048e5d68b5ba1e9</AccountSid><Called>3012199183</Called><Caller>2026837803</Caller><PhoneNumberSid>PNfeb8ac07c2e8b3e333140f679e87da42</PhoneNumberSid><Status>0</Status><StartTime/><EndTime/><Duration/><Price/><Flags>2</Flags><Annotation/></Call></TwilioResponse>
+Redirected to actionservice_requestid22
+Completed in 1343ms (DB: 27) | 302 Found [http://localhost/hello/post]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 11:25:40) [GET]
+  Parameters: {"id"=>"22"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mServiceRequest Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mServiceRequest Load (0.4ms)[0m   [0mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 22) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 62ms (View: 31, DB: 3) | 200 OK [http://localhost/hello/service_request/22]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:25:59) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:28:43) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:31:58) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:34:22) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 23ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:39:38) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 24ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 11:48:26) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 11:48:30) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 48ms (View: 38, DB: 1) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 11:51:31) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 23ms (View: 13, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 11:56:12) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 11:57:17) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 11:58:12) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 11:58:21) [GET]
+  Parameters: {"lon"=>"-77.047018", "lat"=>"38.907682"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"242458"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2134 NEWPORT PLACE NW"}, {"addrnum"=>"2134"}, {"stname"=>"NEWPORT"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395861.01"}, {"ycoord"=>"137767.03"}, {"ssl"=>"0069    0803"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 5"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20037"}, {"latitude"=>"38.90775334"}, {"longitude"=>"-77.04772026"}, {"distance"=>"61.42"}]}, {"address"=>[{"aid"=>"226313"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2119 N STREET NW"}, {"addrnum"=>"2119"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395865.8"}, {"ycoord"=>"137732.43"}, {"ssl"=>"0069    0172"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 5"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20037"}, {"latitude"=>"38.90744168"}, {"longitude"=>"-77.04766483"}, {"distance"=>"62.12"}]}, {"address"=>[{"aid"=>"226143"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2110 O STREET NW"}, {"addrnum"=>"2110"}, {"stname"=>"O"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395910.57"}, {"ycoord"=>"137832.22"}, {"ssl"=>"0069    0149"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20037"}, {"latitude"=>"38.90834083"}, {"longitude"=>"-77.04714925"}, {"distance"=>"74.02"}]}, {"address"=>[{"aid"=>"242680"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2017 N STREET NW"}, {"addrnum"=>"2017"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395997.92"}, {"ycoord"=>"137733.99"}, {"ssl"=>"0097    0044"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90745634"}, {"longitude"=>"-77.04614157"}, {"distance"=>"80.04"}]}, {"address"=>[{"aid"=>"242699"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1335 21ST STREET NW"}, {"addrnum"=>"1335"}, {"stname"=>"21ST"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395974.38"}, {"ycoord"=>"137824.58000000002"}, {"ssl"=>"0097    0088"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90827230"}, {"longitude"=>"-77.04641351"}, {"distance"=>"83.92"}]}]
+Completed in 5183ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.907682&lon=-77.047018]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 11:58:28) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 132ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:03:01) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 12:03:20) [GET]
+  Parameters: {"lon"=>"-77.110932", "lat"=>"38.994755"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[]
+Completed in 4978ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.994755&lon=-77.110932]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:04:53) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 12:05:02) [GET]
+  Parameters: {"lon"=>"-77.035640", "lat"=>"38.913792"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"242883"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1733 16TH STREET NW"}, {"addrnum"=>"1733"}, {"stname"=>"16TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396892.86"}, {"ycoord"=>"138425.86000000002"}, {"ssl"=>"0192    0834"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"52.01"}, {"vote_prcnct"=>"Precinct 16"}, {"smd"=>"SMD02 2B04"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91369256"}, {"longitude"=>"-77.03582659"}, {"distance"=>"19.59"}]}, {"address"=>[{"aid"=>"242152"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1525 S STREET NW"}, {"addrnum"=>"1525"}, {"stname"=>"S"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396916.77"}, {"ycoord"=>"138488.89"}, {"ssl"=>"0191    0013"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"43"}, {"vote_prcnct"=>"Precinct 141"}, {"smd"=>"SMD02 2B09"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91426044"}, {"longitude"=>"-77.03555118"}, {"distance"=>"52.57"}]}, {"address"=>[{"aid"=>"242208"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1801 16TH STREET NW"}, {"addrnum"=>"1801"}, {"stname"=>"16TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396874.36"}, {"ycoord"=>"138501.6"}, {"ssl"=>"0191    0103"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"43"}, {"vote_prcnct"=>"Precinct 141"}, {"smd"=>"SMD02 2B09"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91437479"}, {"longitude"=>"-77.03604024"}, {"distance"=>"73.42"}]}, {"address"=>[{"aid"=>"242143"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1505 S STREET NW"}, {"addrnum"=>"1505"}, {"stname"=>"S"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396972.49"}, {"ycoord"=>"138491.46"}, {"ssl"=>"0191    0003"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"43"}, {"vote_prcnct"=>"Precinct 141"}, {"smd"=>"SMD02 2B09"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91428379"}, {"longitude"=>"-77.03490871"}, {"distance"=>"83.68"}]}, {"address"=>[{"aid"=>"242223"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1718 15TH STREET NW"}, {"addrnum"=>"1718"}, {"stname"=>"15TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396978.41000000003"}, {"ycoord"=>"138377.07"}, {"ssl"=>"0192    0102"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"52.01"}, {"vote_prcnct"=>"Precinct 16"}, {"smd"=>"SMD02 2B04"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91325334"}, {"longitude"=>"-77.03483995"}, {"distance"=>"91.60"}]}]
+Completed in 5161ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.913792&lon=-77.035640]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 12:05:11) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 128ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 12:05:15) [GET]
+  Parameters: {"service_code"=>"S0081"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 101ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=S0081]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:05:22) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 24ms (View: 14, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 12:05:30) [GET]
+  Parameters: {"lon"=>"-77.040466", "lat"=>"38.909625"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"225885"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1741 P STREET NW"}, {"addrnum"=>"1741"}, {"stname"=>"P"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396493.78"}, {"ycoord"=>"137999.94"}, {"ssl"=>"0156    0055"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90985423"}, {"longitude"=>"-77.04042597"}, {"distance"=>"25.68"}]}, {"address"=>[{"aid"=>"225900"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1753 P STREET NW"}, {"addrnum"=>"1753"}, {"stname"=>"P"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396457.55"}, {"ycoord"=>"137998.56"}, {"ssl"=>"0156    0363"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90984165"}, {"longitude"=>"-77.04084368"}, {"distance"=>"40.64"}]}, {"address"=>[{"aid"=>"225898"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1752 CHURCH STREET NW"}, {"addrnum"=>"1752"}, {"stname"=>"CHURCH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396502.8"}, {"ycoord"=>"138042.9"}, {"ssl"=>"0156    0304"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91024126"}, {"longitude"=>"-77.04032219"}, {"distance"=>"69.54"}]}, {"address"=>[{"aid"=>"226672"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1766 CHURCH STREET NW"}, {"addrnum"=>"1766"}, {"stname"=>"CHURCH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396464.72000000003"}, {"ycoord"=>"138042.62"}, {"ssl"=>"0156    0297"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91023859"}, {"longitude"=>"-77.04076124"}, {"distance"=>"72.77"}]}, {"address"=>[{"aid"=>"226677"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1770 CHURCH STREET NW"}, {"addrnum"=>"1770"}, {"stname"=>"CHURCH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396452.59"}, {"ycoord"=>"138042.99"}, {"ssl"=>"0156    0370"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91024187"}, {"longitude"=>"-77.04090110"}, {"distance"=>"78.19"}]}]
+Completed in 5151ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.909625&lon=-77.040466]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 12:05:36) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 146ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 12:05:40) [GET]
+  Parameters: {"service_code"=>"HMDCP"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 134ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=HMDCP]
+
+
+Processing HelloController#post (for 127.0.0.1 at 2009-06-26 12:06:03) [POST]
+  Parameters: {"answer"=>{"HMDCP-AGENCYSTICKER"=>"", "HMDCP-DATEANDTIME"=>"", "HMDCP-ROAD"=>"One Way", "HMDCP-ROADCONDITION"=>"Muddy road", "HMDCP-PLATENUMBER"=>"211424", "aid"=>"226672", "HMDCP-CONTACTPERMISSION"=>"Yes", "HMDCP-ACTIVITY"=>"Backing up", "service_code"=>"HMDCP", "phone_or_email"=>"zvi@skeevisarts.com", "description"=>"", "HMDCP-WEATHER"=>"Sunny/Dry", "HMDCP-TRAFFIC"=>"Light traffic"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+"1d551b52-cc37-4a74-bb73-da06d99ba1fd"
+  [4;36;1mServiceRequest Columns (18.7ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mServiceRequest Create (0.3ms)[0m   [0;1mINSERT INTO `service_requests` (`created_at`, `updated_at`, `token`, `status_updated_at`, `service_id`, `fields`, `aid`, `phone_number`, `service_code`, `description`, `is_silenced`, `status`, `email`) VALUES('2009-06-26 16:06:03', '2009-06-26 16:06:03', '1d551b52-cc37-4a74-bb73-da06d99ba1fd', NULL, NULL, '--- !map:HashWithIndifferentAccess \nHMDCP-DATEANDTIME: \"\"\nHMDCP-AGENCYSTICKER: \"\"\nHMDCP-ROAD: One Way\naid: \"226672\"\nHMDCP-PLATENUMBER: \"211424\"\nHMDCP-ROADCONDITION: Muddy road\nservice_code: HMDCP\nHMDCP-ACTIVITY: Backing up\nHMDCP-CONTACTPERMISSION: \"Yes\"\nHMDCP-TRAFFIC: Light traffic\nHMDCP-WEATHER: Sunny/Dry\ndescription: \"\"\nphone_or_email: zvi@skeevisarts.com\n', '226672', NULL, 'HMDCP', '', 0, NULL, 'zvi@skeevisarts.com')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mServiceRequest Load (0.3ms)[0m   [0;1mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 23) [0m
+Sent mail to zvi@skeevisarts.com
+
+Date: Fri, 26 Jun 2009 12:06:03 -0400
+From: fixmycitydc@skeevisarts.com
+To: zvi@skeevisarts.com
+Subject: FixMyCityDC.com - Welcome and Thanks!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Howdy!
+
+Thanks for submitting your service request. Your request will be submitted to DC's 311 operator, and from there, the appropriate department.
+
+We'll let you know if anything changes!
+
+For more information, visit http://fixmycitydc.com/hello/service_request/23
+
+Cheers!
+
+---
+Sent to you by FixMyCityDC - http://fixmycitydc.com
+A product of skeevisArts - http://skeevisarts.com
+
+To disable future notifications for this request, please visit  http://fixmycitydc.com/hello/shush/23
+Redirected to actionservice_requestid23
+Completed in 911ms (DB: 21) | 302 Found [http://localhost/hello/post]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 12:06:04) [GET]
+  Parameters: {"id"=>"23"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mServiceRequest Columns (13.4ms)[0m   [0mSHOW FIELDS FROM `service_requests`[0m
+  [4;36;1mServiceRequest Load (1.5ms)[0m   [0;1mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 23) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 90ms (View: 54, DB: 15) | 200 OK [http://localhost/hello/service_request/23]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 12:09:26) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 12:10:40) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:10:43) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:11:14) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 23ms (View: 13, DB: 1) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:11:32) [GET]
+  [4;35;1mSQL (2.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 38ms (View: 24, DB: 3) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:11:49) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:12:15) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:12:50) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 12:13:01) [GET]
+  Parameters: {"lon"=>"-77.041876", "lat"=>"38.912373"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"226415"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1819 CORCORAN STREET NW"}, {"addrnum"=>"1819"}, {"stname"=>"CORCORAN"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396322.34"}, {"ycoord"=>"138239.66"}, {"ssl"=>"0134    0160"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91201301"}, {"longitude"=>"-77.04240392"}, {"distance"=>"60.77"}]}, {"address"=>[{"aid"=>"241636"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1701 18TH STREET NW"}, {"addrnum"=>"1701"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396407.24"}, {"ycoord"=>"138334.2"}, {"ssl"=>"0153    0132"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91286501"}, {"longitude"=>"-77.04142550"}, {"distance"=>"67.15"}]}, {"address"=>[{"aid"=>"241202"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1706 18TH STREET NW"}, {"addrnum"=>"1706"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396360.46"}, {"ycoord"=>"138359.25"}, {"ssl"=>"0133    0162"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91309047"}, {"longitude"=>"-77.04196502"}, {"distance"=>"80.02"}]}, {"address"=>[{"aid"=>"241248"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1826 R STREET NW"}, {"addrnum"=>"1826"}, {"stname"=>"R"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396287.06"}, {"ycoord"=>"138283.51"}, {"ssl"=>"0134    0167"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91240787"}, {"longitude"=>"-77.04281094"}, {"distance"=>"81.18"}]}, {"address"=>[{"aid"=>"241633"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1715 18TH STREET NW"}, {"addrnum"=>"1715"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396410.37"}, {"ycoord"=>"138366.31"}, {"ssl"=>"0153    0127"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91315428"}, {"longitude"=>"-77.04138958"}, {"distance"=>"96.44"}]}]
+Completed in 6086ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.912373&lon=-77.041876]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 12:13:10) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 130ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:13:35) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 12:14:03) [GET]
+  Parameters: {"lon"=>"-77.036564", "lat"=>"38.897661"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (4.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+nil
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.collect):
+    /app/controllers/remote_controller.rb:41:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (62.6ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (96.2ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:14:22) [GET]
+  [4;35;1mSQL (1.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 35ms (View: 27, DB: 1) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 12:14:34) [GET]
+  Parameters: {"lon"=>"-77.036932", "lat"=>"38.912989"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"238076"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1706 16TH STREET NW"}, {"addrnum"=>"1706"}, {"stname"=>"16TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396794.19"}, {"ycoord"=>"138343.24"}, {"ssl"=>"0178    0075"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B04"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91294794"}, {"longitude"=>"-77.03696391"}, {"distance"=>"5.33"}]}, {"address"=>[{"aid"=>"238072"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1704 16TH STREET NW"}, {"addrnum"=>"1704"}, {"stname"=>"16TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396797.88"}, {"ycoord"=>"138336.51"}, {"ssl"=>"0178    0076"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B04"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91288733"}, {"longitude"=>"-77.03692133"}, {"distance"=>"11.32"}]}, {"address"=>[{"aid"=>"226034"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1619 R STREET NW"}, {"addrnum"=>"1619"}, {"stname"=>"R"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396751.53"}, {"ycoord"=>"138333.85"}, {"ssl"=>"0178    0089"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B04"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91286319"}, {"longitude"=>"-77.03745574"}, {"distance"=>"47.52"}]}, {"address"=>[{"aid"=>"241952"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1611 RIGGS PLACE NW"}, {"addrnum"=>"1611"}, {"stname"=>"RIGGS"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396764.56"}, {"ycoord"=>"138404.4"}, {"ssl"=>"0178    0032"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B04"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91349878"}, {"longitude"=>"-77.03730584"}, {"distance"=>"65.22"}]}, {"address"=>[{"aid"=>"238050"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1750 16TH STREET NW"}, {"addrnum"=>"1750"}, {"stname"=>"16TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396795.09"}, {"ycoord"=>"138446.89"}, {"ssl"=>"0178    0093"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B04"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91388166"}, {"longitude"=>"-77.03695401"}, {"distance"=>"99.11"}]}]
+Completed in 5640ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.912989&lon=-77.036932]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:15:26) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 12:16:18) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 12:16:30) [GET]
+  Parameters: {"lon"=>"-77.043042", "lat"=>"38.907230"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"279412"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1820 N STREET NW"}, {"addrnum"=>"1820"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396269.03"}, {"ycoord"=>"137695.09"}, {"ssl"=>"0139    0074"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90710711"}, {"longitude"=>"-77.04301563"}, {"distance"=>"13.83"}]}, {"address"=>[{"aid"=>"279415"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1822 N STREET NW"}, {"addrnum"=>"1822"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396262.65"}, {"ycoord"=>"137695.28"}, {"ssl"=>"0139    0074"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90710879"}, {"longitude"=>"-77.04308919"}, {"distance"=>"14.06"}]}, {"address"=>[{"aid"=>"241285"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1229 19TH STREET NW"}, {"addrnum"=>"1229"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396251.47000000003"}, {"ycoord"=>"137687.92"}, {"ssl"=>"0139    0038"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90704244"}, {"longitude"=>"-77.04321804"}, {"distance"=>"25.82"}]}, {"address"=>[{"aid"=>"241281"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1821 JEFFERSON PLACE NW"}, {"addrnum"=>"1821"}, {"stname"=>"JEFFERSON"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396309.91000000003"}, {"ycoord"=>"137638.25"}, {"ssl"=>"0139    0028"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90659525"}, {"longitude"=>"-77.042544"}, {"distance"=>"82.65"}]}, {"address"=>[{"aid"=>"302957"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1226 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1226"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396347.45"}, {"ycoord"=>"137659.34"}, {"ssl"=>"0139    0816"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90678539"}, {"longitude"=>"-77.04211131"}, {"distance"=>"94.62"}]}]
+Completed in 3825ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.907230&lon=-77.043042]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 14:45:32) [GET]
+  [4;35;1mSQL (0.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 190ms (View: 0, DB: 1) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 14:45:56) [GET]
+  Parameters: {"service_code"=>"S0021"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 1039ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=S0021]
+
+
+Processing HelloController#post (for 127.0.0.1 at 2009-06-26 14:46:06) [POST]
+  Parameters: {"answer"=>{"ABDBIC-RUSTY"=>"Yes", "ABDBIC-NOWHEELS"=>"Yes", "ABDBIC-HOWLONG"=>"", "ABDBIC-DAMAGES"=>"", "ABDBIC-MODELB"=>"Children's", "aid"=>"241281", "ABDBIC-AIRINTIRES"=>"Yes", "service_code"=>"S0021", "phone_or_email"=>"", "description"=>"", "ABDBIC-LOCKED"=>"Bike Rack", "ABDBIC-COLORB"=>"Black"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+"c3d90fd4-c83a-49f0-97ae-db5a37edffeb"
+  [4;35;1mServiceRequest Columns (22.7ms)[0m   [0mSHOW FIELDS FROM `service_requests`[0m
+  [4;36;1mSQL (11.6ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mServiceRequest Create (0.3ms)[0m   [0mINSERT INTO `service_requests` (`created_at`, `updated_at`, `token`, `status_updated_at`, `service_id`, `fields`, `aid`, `phone_number`, `service_code`, `description`, `is_silenced`, `status`, `email`) VALUES('2009-06-26 18:46:06', '2009-06-26 18:46:06', 'c3d90fd4-c83a-49f0-97ae-db5a37edffeb', NULL, NULL, '--- !map:HashWithIndifferentAccess \nABDBIC-RUSTY: \"Yes\"\nABDBIC-HOWLONG: \"\"\nABDBIC-NOWHEELS: \"Yes\"\nABDBIC-DAMAGES: \"\"\naid: \"241281\"\nABDBIC-MODELB: Children\'s\nservice_code: S0021\nABDBIC-AIRINTIRES: \"Yes\"\ndescription: \"\"\nphone_or_email: \"\"\nABDBIC-COLORB: Black\nABDBIC-LOCKED: Bike Rack\n', '241281', NULL, 'S0021', '', 0, NULL, NULL)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to actionservice_requestid24
+Completed in 518ms (DB: 35) | 302 Found [http://localhost/hello/post]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 14:46:06) [GET]
+  Parameters: {"id"=>"24"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mServiceRequest Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `service_requests`[0m
+  [4;36;1mServiceRequest Load (0.3ms)[0m   [0;1mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 24) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 79ms (View: 57, DB: 2) | 200 OK [http://localhost/hello/service_request/24]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 14:54:14) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 41ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 14:54:18) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 364ms (View: 356, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:21:46) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 35ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:24:34) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:25:29) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:25:39) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:26:58) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 27ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:27:17) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 29ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:28:51) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:28:56) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:29:04) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 24ms (View: 13, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:29:08) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 37ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:30:32) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:30:35) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:31:10) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 24ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:31:16) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:31:41) [GET]
+  [4;35;1mSQL (1.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 43ms (View: 29, DB: 3) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:32:05) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:32:26) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 95ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:32:32) [GET]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 25ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:32:54) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 15:33:22) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:33:33) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 47ms (View: 38, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:34:58) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 23ms (View: 13, DB: 2) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:36:19) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:42:05) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 15:43:09) [GET]
+  Parameters: {"lon"=>"-77.036564", "lat"=>"38.897661"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+nil
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.collect):
+    /app/controllers/remote_controller.rb:41:in `_lookup_point'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /vendor/rails/activerecord/lib/active_record/query_cache.rb:8:in `cache'
+    /vendor/rails/actionpack/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:524:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:134:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:392:in `process'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:142:in `load'
+    /vendor/rails/railties/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /vendor/rails/activesupport/lib/active_support/dependencies.rb:153:in `require'
+    /vendor/rails/railties/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_trace (62.0ms)
+Rendered /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/_request_and_response (1.1ms)
+Rendering /Users/zvi/development/WeveHadAProblem/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:43:47) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 24ms (View: 15, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 15:44:12) [GET]
+  Parameters: {"lon"=>"-77.042703", "lat"=>"38.911602"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"241236"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1828 CORCORAN STREET NW"}, {"addrnum"=>"1828"}, {"stname"=>"CORCORAN"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396294.72000000003"}, {"ycoord"=>"138208.84"}, {"ssl"=>"0134    0109"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91173525"}, {"longitude"=>"-77.04272221"}, {"distance"=>"14.89"}]}, {"address"=>[{"aid"=>"241227"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1613 19TH STREET NW"}, {"addrnum"=>"1613"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396258.3"}, {"ycoord"=>"138194.98"}, {"ssl"=>"0134    0016"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91161024"}, {"longitude"=>"-77.04314206"}, {"distance"=>"38.09"}]}, {"address"=>[{"aid"=>"241243"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1600 NEW HAMPSHIRE AVENUE NW"}, {"addrnum"=>"1600"}, {"stname"=>"NEW HAMPSHIRE"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396328.13"}, {"ycoord"=>"138169.53"}, {"ssl"=>"0134    0145"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91138128"}, {"longitude"=>"-77.04233678"}, {"distance"=>"40.11"}]}, {"address"=>[{"aid"=>"226415"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1819 CORCORAN STREET NW"}, {"addrnum"=>"1819"}, {"stname"=>"CORCORAN"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396322.34"}, {"ycoord"=>"138239.66"}, {"ssl"=>"0134    0160"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91201301"}, {"longitude"=>"-77.04240392"}, {"distance"=>"52.48"}]}, {"address"=>[{"aid"=>"241248"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1826 R STREET NW"}, {"addrnum"=>"1826"}, {"stname"=>"R"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396287.06"}, {"ycoord"=>"138283.51"}, {"ssl"=>"0134    0167"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91240787"}, {"longitude"=>"-77.04281094"}, {"distance"=>"89.95"}]}]
+Completed in 4995ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911602&lon=-77.042703]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:44:37) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 26ms (View: 13, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 15:44:51) [GET]
+  Parameters: {"lon"=>"-77.045278", "lat"=>"38.907673"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"242555"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2000 N STREET NW"}, {"addrnum"=>"2000"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396065.26"}, {"ycoord"=>"137690"}, {"ssl"=>"0099    0049"}, {"anc"=>"ANC 2A"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2A02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90706037"}, {"longitude"=>"-77.04536493"}, {"distance"=>"68.42"}]}, {"address"=>[{"aid"=>"241060"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1307 NEW HAMPSHIRE AVENUE NW"}, {"addrnum"=>"1307"}, {"stname"=>"NEW HAMPSHIRE"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396131.32"}, {"ycoord"=>"137796.8"}, {"ssl"=>"0115    0079"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90802275"}, {"longitude"=>"-77.04460391"}, {"distance"=>"70.18"}]}, {"address"=>[{"aid"=>"242680"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2017 N STREET NW"}, {"addrnum"=>"2017"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395997.92"}, {"ycoord"=>"137733.99"}, {"ssl"=>"0097    0044"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90745634"}, {"longitude"=>"-77.04614157"}, {"distance"=>"78.67"}]}, {"address"=>[{"aid"=>"226650"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2012 O STREET NW"}, {"addrnum"=>"2012"}, {"stname"=>"O"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396052.44"}, {"ycoord"=>"137838.35"}, {"ssl"=>"0097    0082"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90839670"}, {"longitude"=>"-77.04551359"}, {"distance"=>"82.89"}]}, {"address"=>[{"aid"=>"238133"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1272 NEW HAMPSHIRE AVENUE NW"}, {"addrnum"=>"1272"}, {"stname"=>"NEW HAMPSHIRE"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395998.12"}, {"ycoord"=>"137692.93"}, {"ssl"=>"0098    0013"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90708646"}, {"longitude"=>"-77.04613903"}, {"distance"=>"99.08"}]}]
+Completed in 5252ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.907673&lon=-77.045278]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 15:44:58) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 135ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 15:45:02) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 96ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:46:03) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 15:46:12) [GET]
+  Parameters: {"lon"=>"-77.052899", "lat"=>"38.911001"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"272657"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2501 Q STREET NW"}, {"addrnum"=>"2501"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395400.16000000003"}, {"ycoord"=>"138128.65"}, {"ssl"=>"1264E   0858"}, {"anc"=>"ANC 2E"}, {"psa"=>"Police Service Area 206"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 4"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"1"}, {"vote_prcnct"=>"Precinct 5"}, {"smd"=>"SMD02 2E07"}, {"zipcode"=>"20007"}, {"latitude"=>"38.91100865"}, {"longitude"=>"-77.05303603"}, {"distance"=>"11.91"}]}, {"address"=>[{"aid"=>"272656"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2511 Q STREET NW"}, {"addrnum"=>"2511"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395342.36"}, {"ycoord"=>"138124.47"}, {"ssl"=>"1264E   0022"}, {"anc"=>"ANC 2E"}, {"psa"=>"Police Service Area 206"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 4"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"1"}, {"vote_prcnct"=>"Precinct 5"}, {"smd"=>"SMD02 2E07"}, {"zipcode"=>"20007"}, {"latitude"=>"38.91097069"}, {"longitude"=>"-77.05370243"}, {"distance"=>"69.76"}]}, {"address"=>[{"aid"=>"276317"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2512 Q STREET NW"}, {"addrnum"=>"2512"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395375.07"}, {"ycoord"=>"138053.29"}, {"ssl"=>"1264E   0029"}, {"anc"=>"ANC 2E"}, {"psa"=>"Police Service Area 206"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 4"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"1"}, {"vote_prcnct"=>"Precinct 5"}, {"smd"=>"SMD02 2E07"}, {"zipcode"=>"20007"}, {"latitude"=>"38.91032965"}, {"longitude"=>"-77.05332481"}, {"distance"=>"83.17"}]}, {"address"=>[{"aid"=>"274798"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2500 Q STREET NW"}, {"addrnum"=>"2500"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395476.16000000003"}, {"ycoord"=>"138058.36000000002"}, {"ssl"=>"1264E   0027"}, {"anc"=>"ANC 2E"}, {"psa"=>"Police Service Area 206"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 4"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"1"}, {"vote_prcnct"=>"Precinct 5"}, {"smd"=>"SMD02 2E07"}, {"zipcode"=>"20007"}, {"latitude"=>"38.91037585"}, {"longitude"=>"-77.05215929"}, {"distance"=>"94.51"}]}, {"address"=>[{"aid"=>"277170"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2514 MILL ROAD NW"}, {"addrnum"=>"2514"}, {"stname"=>"MILL"}, {"street_type"=>"ROAD"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395312.91000000003"}, {"ycoord"=>"138124.67"}, {"ssl"=>"1287    0825"}, {"anc"=>"ANC 2E"}, {"psa"=>"Police Service Area 206"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 4"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"1"}, {"vote_prcnct"=>"Precinct 5"}, {"smd"=>"SMD02 2E07"}, {"zipcode"=>"20007"}, {"latitude"=>"38.91097233"}, {"longitude"=>"-77.05404199"}, {"distance"=>"99.18"}]}]
+Completed in 5375ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911001&lon=-77.052899]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 15:46:18) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 147ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 15:46:22) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 90ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:47:06) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 15:50:21) [GET]
+  Parameters: {"lon"=>"-77.048502", "lat"=>"38.907036"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"226061"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2130 N STREET NW"}, {"addrnum"=>"2130"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395825.52"}, {"ycoord"=>"137683.75"}, {"ssl"=>"0070    0192"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 5"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20037"}, {"latitude"=>"38.90700296"}, {"longitude"=>"-77.04812894"}, {"distance"=>"32.56"}]}, {"address"=>[{"aid"=>"242473"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1255 22ND STREET NW"}, {"addrnum"=>"1255"}, {"stname"=>"22ND"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395805.37"}, {"ycoord"=>"137648.24"}, {"ssl"=>"0070    0193"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 5"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20037"}, {"latitude"=>"38.90668298"}, {"longitude"=>"-77.04836104"}, {"distance"=>"41.05"}]}, {"address"=>[{"aid"=>"242401"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2139 N STREET NW"}, {"addrnum"=>"2139"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395819.01"}, {"ycoord"=>"137734.44"}, {"ssl"=>"0069    0007"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 5"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20037"}, {"latitude"=>"38.90745956"}, {"longitude"=>"-77.04820430"}, {"distance"=>"53.64"}]}, {"address"=>[{"aid"=>"242402"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1311 22ND STREET NW"}, {"addrnum"=>"1311"}, {"stname"=>"22ND"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395788.43"}, {"ycoord"=>"137756.31"}, {"ssl"=>"0069    0013"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 5"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20037"}, {"latitude"=>"38.90765643"}, {"longitude"=>"-77.04855701"}, {"distance"=>"69.04"}]}, {"address"=>[{"aid"=>"226313"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2119 N STREET NW"}, {"addrnum"=>"2119"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395865.8"}, {"ycoord"=>"137732.43"}, {"ssl"=>"0069    0172"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 5"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20037"}, {"latitude"=>"38.90744168"}, {"longitude"=>"-77.04766483"}, {"distance"=>"85.44"}]}]
+Completed in 5296ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.907036&lon=-77.048502]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 15:50:27) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (8.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 133ms (View: 0, DB: 9) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 15:50:31) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 96ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:51:09) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 15:51:18) [GET]
+  Parameters: {"lon"=>"-77.041034", "lat"=>"38.913488"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"241600"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1744 RIGGS PLACE NW"}, {"addrnum"=>"1744"}, {"stname"=>"RIGGS"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396429.17"}, {"ycoord"=>"138370.22"}, {"ssl"=>"0153    0028"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91318958"}, {"longitude"=>"-77.04117283"}, {"distance"=>"35.25"}]}, {"address"=>[{"aid"=>"241633"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1715 18TH STREET NW"}, {"addrnum"=>"1715"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396410.37"}, {"ycoord"=>"138366.31"}, {"ssl"=>"0153    0127"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91315428"}, {"longitude"=>"-77.04138958"}, {"distance"=>"48.20"}]}, {"address"=>[{"aid"=>"241607"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1714 NEW HAMPSHIRE AVENUE NW"}, {"addrnum"=>"1714"}, {"stname"=>"NEW HAMPSHIRE"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396485.83"}, {"ycoord"=>"138369.89"}, {"ssl"=>"0153    0070"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91318683"}, {"longitude"=>"-77.04051952"}, {"distance"=>"55.75"}]}, {"address"=>[{"aid"=>"241639"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1708 NEW HAMPSHIRE AVENUE NW"}, {"addrnum"=>"1708"}, {"stname"=>"NEW HAMPSHIRE"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396468.46"}, {"ycoord"=>"138354.29"}, {"ssl"=>"0153    0804"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91304623"}, {"longitude"=>"-77.04071972"}, {"distance"=>"56.11"}]}, {"address"=>[{"aid"=>"241636"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1701 18TH STREET NW"}, {"addrnum"=>"1701"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396407.24"}, {"ycoord"=>"138334.2"}, {"ssl"=>"0153    0132"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B03"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91286501"}, {"longitude"=>"-77.04142550"}, {"distance"=>"77.04"}]}]
+Completed in 5246ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.913488&lon=-77.041034]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 15:51:24) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 130ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 15:51:29) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 95ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 15:51:48) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 15:51:57) [GET]
+  Parameters: {"lon"=>"-77.049805", "lat"=>"38.913136"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"234942"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2232 DECATUR PLACE NW"}, {"addrnum"=>"2232"}, {"stname"=>"DECATUR"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395668.3"}, {"ycoord"=>"138370.12"}, {"ssl"=>"2516    0049"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91318525"}, {"longitude"=>"-77.04994591"}, {"distance"=>"13.39"}]}, {"address"=>[{"aid"=>"234930"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2222 DECATUR PLACE NW"}, {"addrnum"=>"2222"}, {"stname"=>"DECATUR"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395701.39"}, {"ycoord"=>"138374.53"}, {"ssl"=>"2516    0029"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91322514"}, {"longitude"=>"-77.04956440"}, {"distance"=>"23.09"}]}, {"address"=>[{"aid"=>"234940"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2236 DECATUR PLACE NW"}, {"addrnum"=>"2236"}, {"stname"=>"DECATUR"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395656.62"}, {"ycoord"=>"138369.63"}, {"ssl"=>"2516    0047"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91318078"}, {"longitude"=>"-77.05008058"}, {"distance"=>"24.41"}]}, {"address"=>[{"aid"=>"234927"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2221 R STREET NW"}, {"addrnum"=>"2221"}, {"stname"=>"R"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395701.56"}, {"ycoord"=>"138331.42"}, {"ssl"=>"2516    0004"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91283679"}, {"longitude"=>"-77.04956217"}, {"distance"=>"39.33"}]}, {"address"=>[{"aid"=>"218653"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2210 R STREET NW"}, {"addrnum"=>"2210"}, {"stname"=>"R"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395727.69"}, {"ycoord"=>"138286.16"}, {"ssl"=>"2512    0016"}, {"anc"=>"ANC 2D"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 1"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"41"}, {"vote_prcnct"=>"Precinct 13"}, {"smd"=>"SMD02 2D02"}, {"zipcode"=>"20008"}, {"latitude"=>"38.91242920"}, {"longitude"=>"-77.04926060"}, {"distance"=>"91.57"}]}]
+Completed in 3612ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.913136&lon=-77.049805]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 15:52:02) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 3515ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 15:52:18) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:00:44) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 16:00:53) [GET]
+  Parameters: {"lon"=>"-77.035147", "lat"=>"38.911118"}
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"225633"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1512 Q STREET NW"}, {"addrnum"=>"1512"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396944.82"}, {"ycoord"=>"138120.79"}, {"ssl"=>"0194    0808"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"52.01"}, {"vote_prcnct"=>"Precinct 16"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91094457"}, {"longitude"=>"-77.03522611"}, {"distance"=>"20.44"}]}, {"address"=>[{"aid"=>"225759"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1534 15TH STREET NW"}, {"addrnum"=>"1534"}, {"stname"=>"15TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396983.3"}, {"ycoord"=>"138099.26"}, {"ssl"=>"0194    0102"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"52.01"}, {"vote_prcnct"=>"Precinct 16"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20005"}, {"latitude"=>"38.91075075"}, {"longitude"=>"-77.03478234"}, {"distance"=>"51.60"}]}, {"address"=>[{"aid"=>"226129"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1529 Q STREET NW"}, {"addrnum"=>"1529"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396900.4"}, {"ycoord"=>"138163.13"}, {"ssl"=>"0193    0013"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"52.01"}, {"vote_prcnct"=>"Precinct 16"}, {"smd"=>"SMD02 2B04"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91132583"}, {"longitude"=>"-77.03573846"}, {"distance"=>"56.25"}]}, {"address"=>[{"aid"=>"225737"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1529 16TH STREET NW"}, {"addrnum"=>"1529"}, {"stname"=>"16TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396881.95"}, {"ycoord"=>"138113.53"}, {"ssl"=>"0194    0113"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"52.01"}, {"vote_prcnct"=>"Precinct 16"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91087895"}, {"longitude"=>"-77.03595097"}, {"distance"=>"74.61"}]}, {"address"=>[{"aid"=>"218346"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1605 15TH STREET NW"}, {"addrnum"=>"1605"}, {"stname"=>"15TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"397026.17"}, {"ycoord"=>"138174.12"}, {"ssl"=>"0208    0804"}, {"anc"=>"ANC 2F"}, {"psa"=>"Police Service Area 307"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 7"}, {"poldist"=>"Police District - Third District"}, {"roc"=>"-"}, {"census_tract"=>"52.01"}, {"vote_prcnct"=>"Precinct 16"}, {"smd"=>"SMD02 2F01"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91142526"}, {"longitude"=>"-77.03428838"}, {"distance"=>"81.91"}]}]
+Completed in 6196ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.911118&lon=-77.035147]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 16:01:01) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 136ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 16:01:06) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 98ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:01:32) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 88ms (View: 80, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 16:01:40) [GET]
+  Parameters: {"lon"=>"-77.041590", "lat"=>"38.914350"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"241151"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1800 18TH STREET NW"}, {"addrnum"=>"1800"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396366.08"}, {"ycoord"=>"138499.35"}, {"ssl"=>"0132    0233"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B01"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91435256"}, {"longitude"=>"-77.04190096"}, {"distance"=>"26.97"}]}, {"address"=>[{"aid"=>"226443"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1815 18TH STREET NW"}, {"addrnum"=>"1815"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396404.66000000003"}, {"ycoord"=>"138539.1"}, {"ssl"=>"0152    0188"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.01"}, {"vote_prcnct"=>"Precinct 141"}, {"smd"=>"SMD02 2B01"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91471080"}, {"longitude"=>"-77.04145632"}, {"distance"=>"41.70"}]}, {"address"=>[{"aid"=>"241198"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1800 S STREET NW"}, {"addrnum"=>"1800"}, {"stname"=>"S"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396365.35000000003"}, {"ycoord"=>"138449.99"}, {"ssl"=>"0133    0150"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B01"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91390791"}, {"longitude"=>"-77.04190912"}, {"distance"=>"56.34"}]}, {"address"=>[{"aid"=>"241216"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1740 18TH STREET NW"}, {"addrnum"=>"1740"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396356.37"}, {"ycoord"=>"138433.69"}, {"ssl"=>"0133    0110"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B01"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91376104"}, {"longitude"=>"-77.04201258"}, {"distance"=>"74.95"}]}, {"address"=>[{"aid"=>"242918"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1818 S STREET NW"}, {"addrnum"=>"1818"}, {"stname"=>"S"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396317.96"}, {"ycoord"=>"138448.47"}, {"ssl"=>"0133    0822"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B01"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91389402"}, {"longitude"=>"-77.04245554"}, {"distance"=>"90.54"}]}]
+Completed in 5774ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.914350&lon=-77.041590]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 16:01:47) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 1069ms (View: 0, DB: 1) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 16:01:51) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 95ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:02:32) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:02:58) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 16:03:10) [GET]
+  Parameters: {"lon"=>"-77.042587", "lat"=>"38.902488"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"298471"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1845 K STREET NW"}, {"addrnum"=>"1845"}, {"stname"=>"K"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396292.95"}, {"ycoord"=>"137221.94"}, {"ssl"=>"0107    0062"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20006"}, {"latitude"=>"38.90284491"}, {"longitude"=>"-77.04273729"}, {"distance"=>"41.71"}]}, {"address"=>[{"aid"=>"300930"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1800 K STREET NW"}, {"addrnum"=>"1800"}, {"stname"=>"K"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396349.28"}, {"ycoord"=>"137153.71"}, {"ssl"=>"0106    0048"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20006"}, {"latitude"=>"38.90223051"}, {"longitude"=>"-77.04208752"}, {"distance"=>"51.90"}]}, {"address"=>[{"aid"=>"240968"}, {"status"=>"RETIRE"}, {"fulladdress"=>"1835 I STREET NW"}, {"addrnum"=>"1835"}, {"stname"=>"I"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396308.3"}, {"ycoord"=>"137115.97"}, {"ssl"=>"0106    0049"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20006"}, {"latitude"=>"38.90189036"}, {"longitude"=>"-77.04255976"}, {"distance"=>"66.39"}]}, {"address"=>[{"aid"=>"285572"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"950 18TH STREET NW"}, {"addrnum"=>"950"}, {"stname"=>"18TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396358.44"}, {"ycoord"=>"137135.75"}, {"ssl"=>"0106    0048"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20006"}, {"latitude"=>"38.90206875"}, {"longitude"=>"-77.04198182"}, {"distance"=>"70.15"}]}, {"address"=>[{"aid"=>"303675"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"913 19TH STREET NW"}, {"addrnum"=>"913"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396253.56"}, {"ycoord"=>"137100.72"}, {"ssl"=>"0106    0049"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20006"}, {"latitude"=>"38.90175275"}, {"longitude"=>"-77.04319075"}, {"distance"=>"96.98"}]}]
+Completed in 8049ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.902488&lon=-77.042587]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 16:03:20) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 178ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 16:03:24) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:03:53) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 16:04:02) [GET]
+  Parameters: {"lon"=>"-77.046389", "lat"=>"38.912141"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"226051"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1644 21ST STREET NW"}, {"addrnum"=>"1644"}, {"stname"=>"21ST"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395935.76"}, {"ycoord"=>"138282.49"}, {"ssl"=>"0066    0075"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91239713"}, {"longitude"=>"-77.04686149"}, {"distance"=>"49.88"}]}, {"address"=>[{"aid"=>"226053"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1646 21ST STREET NW"}, {"addrnum"=>"1646"}, {"stname"=>"21ST"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395934.94"}, {"ycoord"=>"138288.53"}, {"ssl"=>"0066    0075"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91245154"}, {"longitude"=>"-77.04687098"}, {"distance"=>"54.18"}]}, {"address"=>[{"aid"=>"242605"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2024 HILLYER PLACE NW"}, {"addrnum"=>"2024"}, {"stname"=>"HILLYER"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396013.06"}, {"ycoord"=>"138201.04"}, {"ssl"=>"0093    0094"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91166376"}, {"longitude"=>"-77.04596973"}, {"distance"=>"64.26"}]}, {"address"=>[{"aid"=>"242606"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2022 HILLYER PLACE NW"}, {"addrnum"=>"2022"}, {"stname"=>"HILLYER"}, {"street_type"=>"PLACE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396020.60000000003"}, {"ycoord"=>"138205.42"}, {"ssl"=>"0093    0095"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91170325"}, {"longitude"=>"-77.04588282"}, {"distance"=>"65.49"}]}, {"address"=>[{"aid"=>"242590"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2015 R STREET NW"}, {"addrnum"=>"2015"}, {"stname"=>"R"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396001.26"}, {"ycoord"=>"138327.93"}, {"ssl"=>"0092    0802"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91280677"}, {"longitude"=>"-77.04610653"}, {"distance"=>"77.86"}]}]
+Completed in 5171ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.912141&lon=-77.046389]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 16:04:08) [GET]
+  [4;35;1mSQL (1.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 124ms (View: 0, DB: 1) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 16:04:11) [GET]
+  Parameters: {"service_code"=>"S0166"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 89ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=S0166]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 16:06:39) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:06:44) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 16:06:53) [GET]
+  Parameters: {"lon"=>"-77.043404", "lat"=>"38.907805"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"241066"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1312 19TH STREET NW"}, {"addrnum"=>"1312"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396210.2"}, {"ycoord"=>"137765.64"}, {"ssl"=>"0115    0803"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90774240"}, {"longitude"=>"-77.04369429"}, {"distance"=>"26.12"}]}, {"address"=>[{"aid"=>"217992"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1350 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1350"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396263.56"}, {"ycoord"=>"137828.11000000002"}, {"ssl"=>"0138    0013"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90830538"}, {"longitude"=>"-77.04307942"}, {"distance"=>"62.27"}]}, {"address"=>[{"aid"=>"279415"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1822 N STREET NW"}, {"addrnum"=>"1822"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396262.65"}, {"ycoord"=>"137695.28"}, {"ssl"=>"0139    0074"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90710879"}, {"longitude"=>"-77.04308919"}, {"distance"=>"81.97"}]}, {"address"=>[{"aid"=>"279412"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1820 N STREET NW"}, {"addrnum"=>"1820"}, {"stname"=>"N"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396269.03"}, {"ycoord"=>"137695.09"}, {"ssl"=>"0139    0074"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90710711"}, {"longitude"=>"-77.04301563"}, {"distance"=>"84.48"}]}, {"address"=>[{"aid"=>"241285"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1229 19TH STREET NW"}, {"addrnum"=>"1229"}, {"stname"=>"19TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396251.47000000003"}, {"ycoord"=>"137687.92"}, {"ssl"=>"0139    0038"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.02"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90704244"}, {"longitude"=>"-77.04321804"}, {"distance"=>"86.17"}]}]
+Completed in 5832ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.907805&lon=-77.043404]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 16:07:00) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 149ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 16:07:04) [GET]
+  Parameters: {"service_code"=>"S0146"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 97ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=S0146]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:07:08) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 16:07:18) [GET]
+  Parameters: {"lon"=>"-77.045276", "lat"=>"38.905651"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"285673"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1197 20TH STREET NW"}, {"addrnum"=>"1197"}, {"stname"=>"20TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396124.9"}, {"ycoord"=>"137509.88"}, {"ssl"=>"0117    0076"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90543805"}, {"longitude"=>"-77.04467631"}, {"distance"=>"57.14"}]}, {"address"=>[{"aid"=>"278913"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1195 20TH STREET NW"}, {"addrnum"=>"1195"}, {"stname"=>"20TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396124.37"}, {"ycoord"=>"137500.7"}, {"ssl"=>"0117    0076"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90535535"}, {"longitude"=>"-77.04468237"}, {"distance"=>"61.06"}]}, {"address"=>[{"aid"=>"242873"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2020 M STREET NW"}, {"addrnum"=>"2020"}, {"stname"=>"M"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396017.54000000004"}, {"ycoord"=>"137500.86000000002"}, {"ssl"=>"0100    0898"}, {"anc"=>"ANC 2A"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2A02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90535631"}, {"longitude"=>"-77.04591402"}, {"distance"=>"64.29"}]}, {"address"=>[{"aid"=>"241073"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1990 M STREET NW"}, {"addrnum"=>"1990"}, {"stname"=>"M"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396138.83"}, {"ycoord"=>"137513.34"}, {"ssl"=>"0117    0076"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90546928"}, {"longitude"=>"-77.04451573"}, {"distance"=>"68.96"}]}, {"address"=>[{"aid"=>"279481"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1919 M STREET NW"}, {"addrnum"=>"1919"}, {"stname"=>"M"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396134.28"}, {"ycoord"=>"137573.55"}, {"ssl"=>"0116    0073"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 17"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90601165"}, {"longitude"=>"-77.04456852"}, {"distance"=>"73.27"}]}]
+Completed in 5441ms (View: 2, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.905651&lon=-77.045276]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 16:07:25) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 129ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 16:07:29) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:10:00) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 12, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:10:22) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:10:39) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:11:25) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:12:04) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:16:22) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 16:16:45) [GET]
+  Parameters: {"lon"=>"-77.037958", "lat"=>"38.909834"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"225836"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1635 P STREET NW"}, {"addrnum"=>"1635"}, {"stname"=>"P"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396700.25"}, {"ycoord"=>"138001.82"}, {"ssl"=>"0180    0013"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90987196"}, {"longitude"=>"-77.03804542"}, {"distance"=>"8.67"}]}, {"address"=>[{"aid"=>"242003"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1417 17TH STREET NW"}, {"addrnum"=>"1417"}, {"stname"=>"17TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396685.73"}, {"ycoord"=>"137935.65"}, {"ssl"=>"0181    0149"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90927583"}, {"longitude"=>"-77.03821251"}, {"distance"=>"65.78"}]}, {"address"=>[{"aid"=>"225687"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1521 17TH STREET NW"}, {"addrnum"=>"1521"}, {"stname"=>"17TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396688.86"}, {"ycoord"=>"138074.25"}, {"ssl"=>"0180    0023"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91052439"}, {"longitude"=>"-77.03817709"}, {"distance"=>"78.96"}]}, {"address"=>[{"aid"=>"242012"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1424 16TH STREET NW"}, {"addrnum"=>"1424"}, {"stname"=>"16TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396791.01"}, {"ycoord"=>"137955.6"}, {"ssl"=>"0181    0821"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90945593"}, {"longitude"=>"-77.03699876"}, {"distance"=>"93.18"}]}, {"address"=>[{"aid"=>"218330"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1527 17TH STREET NW"}, {"addrnum"=>"1527"}, {"stname"=>"17TH"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396689.34"}, {"ycoord"=>"138091.12"}, {"ssl"=>"0180    0817"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91067637"}, {"longitude"=>"-77.03817164"}, {"distance"=>"95.33"}]}]
+Completed in 5386ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.909834&lon=-77.037958]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 16:17:02) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 131ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 16:17:06) [GET]
+  Parameters: {"service_code"=>"11"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 95ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=11]
+
+
+Processing HelloController#post (for 127.0.0.1 at 2009-06-26 16:17:12) [POST]
+  Parameters: {"answer"=>{"DEDANM-KIND"=>"", "aid"=>"225687", "service_code"=>"11", "phone_or_email"=>"", "description"=>""}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+"152f5ccc-cbea-45e0-affa-7ed4fb802b3e"
+  [4;35;1mServiceRequest Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `service_requests`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mServiceRequest Create (0.3ms)[0m   [0mINSERT INTO `service_requests` (`created_at`, `updated_at`, `token`, `status_updated_at`, `service_id`, `fields`, `aid`, `phone_number`, `service_code`, `description`, `is_silenced`, `status`, `email`) VALUES('2009-06-26 20:17:15', '2009-06-26 20:17:15', '152f5ccc-cbea-45e0-affa-7ed4fb802b3e', NULL, NULL, '--- !map:HashWithIndifferentAccess \nDEDANM-KIND: \"\"\naid: \"225687\"\nservice_code: \"11\"\ndescription: \"\"\nphone_or_email: \"\"\n', '225687', NULL, '11', '', 0, NULL, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to actionservice_requestid25
+Completed in 3446ms (DB: 3) | 302 Found [http://localhost/hello/post]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 16:17:16) [GET]
+  Parameters: {"id"=>"25"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mServiceRequest Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `service_requests`[0m
+  [4;36;1mServiceRequest Load (0.3ms)[0m   [0;1mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 25) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 71ms (View: 41, DB: 2) | 200 OK [http://localhost/hello/service_request/25]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 16:26:08) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 24ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 16:26:56) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 16:30:50) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 176ms (View: 168, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 16:31:35) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 16:34:45) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-26 16:34:58) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-26 16:35:10) [GET]
+  Parameters: {"lon"=>"-77.041651", "lat"=>"38.909409"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"225906"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1757 P STREET NW"}, {"addrnum"=>"1757"}, {"stname"=>"P"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396441.57"}, {"ycoord"=>"137998.87"}, {"ssl"=>"0156    0361"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90984438"}, {"longitude"=>"-77.04102793"}, {"distance"=>"72.50"}]}, {"address"=>[{"aid"=>"225900"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1753 P STREET NW"}, {"addrnum"=>"1753"}, {"stname"=>"P"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396457.55"}, {"ycoord"=>"137998.56"}, {"ssl"=>"0156    0363"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90984165"}, {"longitude"=>"-77.04084368"}, {"distance"=>"84.91"}]}, {"address"=>[{"aid"=>"243296"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1800 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"1800"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396334.32"}, {"ycoord"=>"137880.7"}, {"ssl"=>"0137    0056"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90877942"}, {"longitude"=>"-77.04226387"}, {"distance"=>"87.81"}]}, {"address"=>[{"aid"=>"241744"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1780 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"1780"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396409.08"}, {"ycoord"=>"137861.95"}, {"ssl"=>"0158    0077"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.02"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B05"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90861082"}, {"longitude"=>"-77.04140182"}, {"distance"=>"91.20"}]}, {"address"=>[{"aid"=>"279379"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1755 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"1755"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396474.85000000003"}, {"ycoord"=>"137910.32"}, {"ssl"=>"0157    0864"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"53.01"}, {"vote_prcnct"=>"Precinct 15"}, {"smd"=>"SMD02 2B07"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90904682"}, {"longitude"=>"-77.04064376"}, {"distance"=>"96.17"}]}]
+Completed in 5457ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.909409&lon=-77.041651]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-26 16:35:18) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 129ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-26 16:35:23) [GET]
+  Parameters: {"service_code"=>"GRAFF"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 92ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=GRAFF]
+
+
+Processing HelloController#post (for 127.0.0.1 at 2009-06-26 16:35:27) [POST]
+  Parameters: {"answer"=>{"aid"=>"243296", "service_code"=>"GRAFF", "phone_or_email"=>"", "description"=>""}}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+"3e08dc8e-c79c-49d0-86e8-0c841104cb85"
+  [4;35;1mServiceRequest Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `service_requests`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mServiceRequest Create (0.3ms)[0m   [0mINSERT INTO `service_requests` (`created_at`, `updated_at`, `token`, `status_updated_at`, `service_id`, `fields`, `aid`, `phone_number`, `service_code`, `description`, `is_silenced`, `status`, `email`) VALUES('2009-06-26 20:35:27', '2009-06-26 20:35:27', '3e08dc8e-c79c-49d0-86e8-0c841104cb85', NULL, NULL, '--- !map:HashWithIndifferentAccess \naid: \"243296\"\nservice_code: GRAFF\ndescription: \"\"\nphone_or_email: \"\"\n', '243296', NULL, 'GRAFF', '', 0, NULL, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to actionservice_requestid26
+Completed in 411ms (DB: 3) | 302 Found [http://localhost/hello/post]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-26 16:35:27) [GET]
+  Parameters: {"id"=>"26"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mServiceRequest Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `service_requests`[0m
+  [4;36;1mServiceRequest Load (0.2ms)[0m   [0;1mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 26) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 69ms (View: 48, DB: 2) | 200 OK [http://localhost/hello/service_request/26]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 16:35:32) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-26 16:37:08) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 29ms (View: 15, DB: 0) | 200 OK [http://localhost/]
