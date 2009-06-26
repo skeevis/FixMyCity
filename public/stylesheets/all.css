@@ -21,6 +21,7 @@ h3 {
     margin:0;
     padding:0;
     position:relative;
+    min-height:85%;
 }
 #wrapper {
     background:#DF3E43 url(/images/red_bg.png) repeat scroll left top;
