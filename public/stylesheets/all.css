@@ -19,7 +19,6 @@ h3 {
 #page {
     background:transparent url(/images/header.png) repeat-x scroll left top;
     margin:0;
-    min-height:100%;
     padding:0;
     position:relative;
 }
