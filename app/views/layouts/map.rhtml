@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>FixMyCityDC</title>
+    <%= javascript_include_tag :all %>
+
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA32dlZAO8bIPrjvrTu-L4vhQRcWuWrAG8uZOzvgY_E-_7y2TuohRuKRaelpbSYdeQUiHOVSF8i-bhtw" type="text/javascript"></script>
+
+    <style type="text/css"> v\:* {behavior:url(#default#VML);}
+    html, body {width: 100%; height: 100%}
+    body {margin-top: 0px; margin-right: 0px; margin-left: 0px; margin-bottom: 0px}
+    #overlay
+    {
+    background-color:white;
+bottom:20px;
+font-family:Verdana;
+font-size:12px;
+height:100px;
+left:44%;
+line-height:22px;
+padding:20px;
+position:absolute;
+width:300px;
+
+    }
+
+    #go
+    {
+background:#CCCCCC none repeat scroll 0 0;
+border:1px solid #999999;
+color:inherit;
+font-size:10px;
+font-weight:bold;
+margin-left:10px;
+padding:5px;
+text-decoration:none;
+text-transform:uppercase;
+    }
+
+    input
+    {
+      background:#CCCCCC none repeat scroll 0 0;
+border:1px solid #999999;
+margin-top:20px;
+padding:5px;
+width:200px;
+    }
+
+    #loading
+    {
+      font-family:verdana;
+font-size:75px;
+font-weight:bold;
+left:40%;
+position:absolute;
+text-transform:uppercase;
+top:45%;
+    }
+    #logo
+    {
+ background:transparent url(/images/fix_my_city.png) no-repeat scroll -120px top;
+display:block;
+height:230px;
+margin:0;
+padding:0;
+text-indent:-3000px;
+width:500px;
+position:absolute;
+top:-20px;
+left:0px;
+    }
+    </style>
+
+  </head>
+  <body onunload="GUnload();">
+
+    <!-- Declare the div, make it take up the full document body -->
+    <div id="map" style="width: 100%; height: 100%;"></div>
+
+    <!-- This div just for the description -->
+<a href="/" id="logo">fixmycity</a>
+<div id="loading" style="display:none;">Loading...</div>
+    <div id="overlay">
+      This shows all the active and recently closed requests in the system. Enter in your phone number or e-mail to map out your requests.
+
+      <input type="text" name="phone_or_email" id="phone_or_email"/><a href="#" id="go">Go</a>
+      <script>
+        $("#go").click(function(){
+          $("#loading").fadeIn();
+          phone_or_email = $("#phone_or_email").val();
+          $.getJSON("/remote/_grab_map_points?phone_or_email="+phone_or_email,
+          function(data){
+                      $("#loading").fadeOut();
+
+            $.each(data,function(i,item){
+              latitude = item.latitude;
+              longitude = item.longitude;
+              service_code = item.service_code;
+              status = item.status;
+              link = item.link;
+              created_at = item.created_at;
+
+              //alert(latitude+","+longitude);
+              point = new GLatLng(latitude,longitude);
+              marker = new GMarker(point);
+              map.addOverlay(marker);
+
+              info =              '<b>Submitted At:</b> ' + created_at + '<br/>' +
+                '<b>Service Code:</b> '+ service_code + '<br>' +
+                '<b>Status:</b> ' +status + '<br>' +
+                '<a href="'+link+'" target="_blank"><b>Click here to view request</b></a><br>';
+
+                  marker.bindInfoWindowHtml(info);
+
+              marker.openInfoWindowHtml(info);
+
+
+            });
+
+          });
+
+        });
+
+
+
+        function createMarker(){
+
+          GEvent.addListener(marker, 'dragend', function(markerPoint){
+            if(!map.getBounds().containsLatLng(markerPoint)){
+              map.removeOverlay(this);
+              map.removeOverlay(this.poly);
+            }else{
+              geocode(this.getLatLng(),this,false);
+            }
+          });
+          return marker
+        }
+      </script>
+
+
+    </div>
+    <script type="text/javascript">
+      //<![CDATA[
+
+      var map;
+      if (GBrowserIsCompatible()) {
+        map = new GMap(document.getElementById("map"));
+
+        geoXml = new GGeoXml("http://data.octo.dc.gov/feeds/src/src_current.kml");
+
+        map.centerAndZoom(new GPoint(-77.044839,38.908154), 3);
+        map.addOverlay(geoXml);
+
+        //38.908154,-77.044839
+        // Monitor the window resize event and let the map know when it occurs if (window.attachEvent) { window.attachEvent("onresize", function() {this.map.onResize()} ); } else { window.addEventListener("resize", function() {this.map.onResize()} , false); }
+
+      }
+
+      //]]>
+    </script>
+
+</body></html>
+
