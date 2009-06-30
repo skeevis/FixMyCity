@@ -46,5 +46,25 @@ class RemoteController < ApplicationController
     render :json=>address_options_ret
 
   end
+  
+  def _grab_map_points
+    phone_or_email = params["phone_or_email"]
+    if phone_or_email.include? "@"
+      @results = ServiceRequest.find_all_by_email phone_or_email
+    else
+      @results = ServiceRequest.find_all_by_phone_number phone_or_email.sub(/[^0-9]/, '')
+    end
+
+    @content = @results.collect { |res|
+      aid = res.aid
+      unless aid.nil?
+        locpoint = DCGOV::GeoCoder.find_by_id aid
+        {'latitude'=>locpoint.latitude,'longitude'=>locpoint.longitude,'service_code'=>res.service_code,'status'=>res.status,'link'=>'http://fixmycitydc.com/hello/service_request/'+res.id.to_s,'created_at'=>res.created_at}
+      end
+    }
+
+    render :json=>@content
+  end
+
 
 end

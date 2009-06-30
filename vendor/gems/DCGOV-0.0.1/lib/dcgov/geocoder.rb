@@ -48,7 +48,7 @@ module DCGOV
       begin
         request_url =  "/geocoding/v1/get.json?aid=#{mar_id}"
         result_json = DCGOV::Util.pull_from_json(request_url)
-        return DCGOV::Address.new_from_hash(result_json["address"][0])
+        return DCGOV::Address.new_from_hash(DCGOV::Util::fix_hash(result_json["address"]))
       rescue
         #crap, something went wrong
         return nil
