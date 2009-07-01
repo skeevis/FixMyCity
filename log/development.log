@@ -34264,3 +34264,19 @@ Processing HelloController#new (for 127.0.0.1 at 2009-06-30 23:51:54) [GET]
 Rendering template within layouts/default
 Rendering hello/new
 Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-07-01 00:06:21) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 25ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-07-01 00:06:23) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 22ms (View: 15, DB: 0) | 200 OK [http://localhost/]

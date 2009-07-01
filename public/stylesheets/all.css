@@ -73,8 +73,8 @@ a.next {
     background:transparent url(/images/button_next.png) no-repeat scroll right top;
     color:#FFFFFF;
     float:right;
-    font-size:29px;
-    padding:20px 83px 23px 10px;
+    font-size:26px;
+padding:20px 90px 20px 20px;
     text-decoration:none;
     text-transform:uppercase;
 }
