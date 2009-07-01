@@ -3,32 +3,23 @@
 <br />
 <br />
 <br />
-
-<p  style="display:none;">
-  FixMyCityDC is a brand new interface to submit service requests to the Washington, DC government. Primary features:
-  <ul class="info">
-    <li>Easy to navigate interface.</li>
-    <li>Follow-up: We'll e-mail or call you when something happens.</li>
-    <li>Tracking: Come back, and check on all your requests at any time.</li>
-    <li>Sharing: Share with your friends!</li>
-  </ul>
-</p>
-
-<p class="red" style="display:none;">
-  NOTE: The DC 311 API is currently under development. You can submit anything you like to test it out, but don't use it for real requests yet!
-</p>
-
-
-
-<p style="display:none;">
-  Want this for your town or city? <a href="mailto:zvi@skeevisarts.com?subject=FixMyCityDC&body=Hey! Really digging FixMyCityDC...">Talk to us</a>.
-</p>
+<div id="slideshow">
+  <img src="/images/slide1.jpg"/>
+  <img src="/images/slide2.jpg"/>
+  <img src="/images/slide3.jpg"/>
+  <img src="/images/slide4.jpg"/>
+  <img src="/images/slide5.jpg"/>
+</div>
 
 
 <script>
   $(document).ready(function(){
 
-    $("p,ul").each(function(){$(this).slideDown("slow")});
+    $("#slideshow").cycle({
+      fx: 'scrollUp',
+      speed: 300,
+      timeout: 4000
 
+    });
   });
 </script>

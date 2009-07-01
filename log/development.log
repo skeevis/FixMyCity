@@ -33961,3 +33961,306 @@ Processing HelloController#index (for 127.0.0.1 at 2009-06-29 23:40:50) [GET]
 Rendering template within layouts/default
 Rendering hello/index
 Completed in 33ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:28:22) [GET]
+  [4;36;1mSQL (8.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 24ms (View: 16, DB: 8) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:28:57) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:29:29) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:29:34) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 23ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:30:45) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:30:58) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 23ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:31:16) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:31:25) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:32:25) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:32:42) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 30ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:33:06) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:33:38) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:35:29) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-30 23:35:32) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 45ms (View: 35, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:35:41) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 20ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-30 23:36:03) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-30 23:36:11) [GET]
+  Parameters: {"lon"=>"-77.046277", "lat"=>"38.905963"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"242554"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1255 NEW HAMPSHIRE AVENUE NW"}, {"addrnum"=>"1255"}, {"stname"=>"NEW HAMPSHIRE"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396010.31"}, {"ycoord"=>"137622.64"}, {"ssl"=>"0099    0835"}, {"anc"=>"ANC 2A"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2A02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90645332"}, {"longitude"=>"-77.04599808"}, {"distance"=>"59.56"}]}, {"address"=>[{"aid"=>"242873"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2020 M STREET NW"}, {"addrnum"=>"2020"}, {"stname"=>"M"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396017.54000000004"}, {"ycoord"=>"137500.86000000002"}, {"ssl"=>"0100    0898"}, {"anc"=>"ANC 2A"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"54.01"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2A02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90535631"}, {"longitude"=>"-77.04591402"}, {"distance"=>"74.34"}]}, {"address"=>[{"aid"=>"242556"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1262 NEW HAMPSHIRE AVENUE NW"}, {"addrnum"=>"1262"}, {"stname"=>"NEW HAMPSHIRE"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395972.18"}, {"ycoord"=>"137658.09"}, {"ssl"=>"0098    0001"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90677249"}, {"longitude"=>"-77.04643790"}, {"distance"=>"90.94"}]}, {"address"=>[{"aid"=>"242561"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1264 NEW HAMPSHIRE AVENUE NW"}, {"addrnum"=>"1264"}, {"stname"=>"NEW HAMPSHIRE"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395975.04000000004"}, {"ycoord"=>"137665.68"}, {"ssl"=>"0098    0002"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90684088"}, {"longitude"=>"-77.04640497"}, {"distance"=>"98.08"}]}, {"address"=>[{"aid"=>"304787"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1261 21ST STREET NW"}, {"addrnum"=>"1261"}, {"stname"=>"21ST"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"395970.59"}, {"ycoord"=>"137666.94"}, {"ssl"=>"0098    0002"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 4"}, {"smd"=>"SMD02 2B06"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90685221"}, {"longitude"=>"-77.04645628"}, {"distance"=>"99.93"}]}]
+Completed in 5045ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.905963&lon=-77.046277]
+
+
+Processing RemoteController#_get_service_types (for 127.0.0.1 at 2009-06-30 23:36:25) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Grabbing Service Types
+Completed in 141ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_types]
+
+
+Processing RemoteController#_get_service_fields (for 127.0.0.1 at 2009-06-30 23:36:28) [GET]
+  Parameters: {"service_code"=>"S0146"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 103ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_get_service_fields?service_code=S0146]
+
+
+Processing HelloController#post (for 127.0.0.1 at 2009-06-30 23:37:01) [POST]
+  Parameters: {"answer"=>{"EVIC-HOWMANY"=>"6676", "aid"=>"242556", "service_code"=>"S0146", "phone_or_email"=>"zvi@skeevisarts.com", "description"=>"nope"}}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+"59acae71-9f4a-4239-a64d-296228d8cfbe"
+  [4;36;1mServiceRequest Columns (59.7ms)[0m   [0;1mSHOW FIELDS FROM `service_requests`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mServiceRequest Create (102.8ms)[0m   [0;1mINSERT INTO `service_requests` (`created_at`, `updated_at`, `token`, `status_updated_at`, `service_id`, `fields`, `aid`, `phone_number`, `service_code`, `description`, `is_silenced`, `status`, `email`) VALUES('2009-07-01 03:37:02', '2009-07-01 03:37:02', '59acae71-9f4a-4239-a64d-296228d8cfbe', NULL, NULL, '--- !map:HashWithIndifferentAccess \naid: \"242556\"\nEVIC-HOWMANY: \"6676\"\nservice_code: S0146\ndescription: nope\nphone_or_email: zvi@skeevisarts.com\n', '242556', NULL, 'S0146', 'nope', 0, NULL, 'zvi@skeevisarts.com')[0m
+  [4;35;1mSQL (20.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mServiceRequest Load (0.3ms)[0m   [0;1mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 27) [0m
+Sent mail to zvi@skeevisarts.com
+
+Date: Tue, 30 Jun 2009 23:37:02 -0400
+From: fixmycitydc@skeevisarts.com
+To: zvi@skeevisarts.com
+Subject: FixMyCityDC.com - Welcome and Thanks!
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Howdy!
+
+Thanks for submitting your service request. Your request will be submitted to DC's 311 operator, and from there, the appropriate department.
+
+We'll let you know if anything changes!
+
+For more information, visit http://fixmycitydc.com/hello/service_request/27
+
+Cheers!
+
+---
+Sent to you by FixMyCityDC - http://fixmycitydc.com
+A product of skeevisArts - http://skeevisarts.com
+
+To disable future notifications for this request, please visit  http://fixmycitydc.com/hello/shush/27
+Redirected to actionservice_requestid27
+Completed in 1577ms (DB: 183) | 302 Found [http://localhost/hello/post]
+
+
+Processing HelloController#service_request (for 127.0.0.1 at 2009-06-30 23:37:03) [GET]
+  Parameters: {"id"=>"27"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mServiceRequest Columns (32.6ms)[0m   [0mSHOW FIELDS FROM `service_requests`[0m
+  [4;36;1mServiceRequest Load (12.7ms)[0m   [0;1mSELECT * FROM `service_requests` WHERE (`service_requests`.`id` = 27) [0m
+Rendering template within layouts/default
+Rendering hello/service_request
+Completed in 420ms (View: 354, DB: 45) | 200 OK [http://localhost/hello/service_request/27]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:37:43) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:38:00) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:38:32) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 22ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#check (for 127.0.0.1 at 2009-06-30 23:41:53) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/check
+Completed in 40ms (View: 32, DB: 0) | 200 OK [http://localhost/hello/check]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:41:56) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MapController#index (for 127.0.0.1 at 2009-06-30 23:41:57) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/map
+Rendering map/index
+Completed in 40ms (View: 32, DB: 0) | 200 OK [http://localhost/map/]
+
+
+Processing HelloController#index (for 192.168.1.12 at 2009-06-30 23:46:30) [GET]
+  [4;35;1mSQL (170.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (12.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 69ms (View: 60, DB: 183) | 200 OK [http://192.168.1.6/]
+
+
+Processing HelloController#new (for 192.168.1.12 at 2009-06-30 23:46:54) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 59ms (View: 49, DB: 0) | 200 OK [http://192.168.1.6/hello/new]
+
+
+Processing HelloController#new (for 192.168.1.12 at 2009-06-30 23:48:40) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 69ms (View: 60, DB: 0) | 200 OK [http://192.168.1.6/hello/new]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-06-30 23:51:32) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/index
+Completed in 46ms (View: 38, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-30 23:51:38) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 40ms (View: 31, DB: 0) | 200 OK [http://localhost/hello/new]
+
+
+Processing RemoteController#_lookup_point (for 127.0.0.1 at 2009-06-30 23:51:48) [GET]
+  Parameters: {"lon"=>"-77.044488", "lat"=>"38.910532"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+[{"address"=>[{"aid"=>"285661"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1528 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1528"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396145.94"}, {"ycoord"=>"138099.07"}, {"ssl"=>"0113    0060"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91074577"}, {"longitude"=>"-77.04443704"}, {"distance"=>"24.14"}]}, {"address"=>[{"aid"=>"218316"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1519 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1519"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396197.41000000003"}, {"ycoord"=>"138112.05"}, {"ssl"=>"0112    0003"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91086292"}, {"longitude"=>"-77.04384367"}, {"distance"=>"66.88"}]}, {"address"=>[{"aid"=>"218308"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1509 CONNECTICUT AVENUE NW"}, {"addrnum"=>"1509"}, {"stname"=>"CONNECTICUT"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396205.45"}, {"ycoord"=>"138095.99"}, {"ssl"=>"0112    0012"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.91071828"}, {"longitude"=>"-77.04375088"}, {"distance"=>"67.19"}]}, {"address"=>[{"aid"=>"302978"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"1909 Q STREET NW"}, {"addrnum"=>"1909"}, {"stname"=>"Q"}, {"street_type"=>"STREET"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396182.29000000004"}, {"ycoord"=>"138157.73"}, {"ssl"=>"0111    0082"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"42.02"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20009"}, {"latitude"=>"38.91127436"}, {"longitude"=>"-77.04401826"}, {"distance"=>"91.93"}]}, {"address"=>[{"aid"=>"293218"}, {"status"=>"ACTIVE"}, {"fulladdress"=>"2000 MASSACHUSETTS AVENUE NW"}, {"addrnum"=>"2000"}, {"stname"=>"MASSACHUSETTS"}, {"street_type"=>"AVENUE"}, {"quadrant"=>"NW"}, {"city"=>"WASHINGTON"}, {"state"=>"DC"}, {"xcoord"=>"396083.4"}, {"ycoord"=>"138003.93"}, {"ssl"=>"0095    0001"}, {"anc"=>"ANC 2B"}, {"psa"=>"Police Service Area 208"}, {"ward"=>"Ward 2"}, {"nbhd_action"=>" "}, {"cluster"=>"Cluster 6"}, {"poldist"=>"Police District - Second District"}, {"roc"=>"-"}, {"census_tract"=>"55"}, {"vote_prcnct"=>"Precinct 14"}, {"smd"=>"SMD02 2B02"}, {"zipcode"=>"20036"}, {"latitude"=>"38.90988844"}, {"longitude"=>"-77.04515758"}, {"distance"=>"92.07"}]}]
+Completed in 4887ms (View: 0, DB: 0) | 200 OK [http://localhost/remote/_lookup_point?lat=38.910532&lon=-77.044488]
+
+
+Processing HelloController#new (for 127.0.0.1 at 2009-06-30 23:51:54) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/default
+Rendering hello/new
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/hello/new]

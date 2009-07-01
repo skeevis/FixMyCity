@@ -1,6 +1,13 @@
 html {
     height:100%;
 }
+
+ul
+{
+    margin-left:0px;
+    padding-left:0px;
+
+}
 body {
     background:#FFFFFF url(/images/stripe.png) repeat scroll left top;
     font-family:Tahoma;
@@ -127,6 +134,7 @@ label {
     overflow:hidden;
     text-align:center;
     width:100%;
+    clear:both;
 }
 #footer a {
     display:block;
@@ -317,4 +325,15 @@ p a
 a:hover
 {
     opacity:0.75;
+}
+
+#slideshow
+{
+border:6px solid #fff;
+        margin-left:auto;
+        margin-right:auto;
+        width:580px;
+        height:300px;
+        margin-top:50px;
+        overflow:hidden;
 }
